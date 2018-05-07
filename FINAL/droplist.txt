@@ -1,0 +1,9 @@
+drop_list=['installment','term','settlement_date','pymnt_plan','hardship_length', 'settlement_percentage', 'settlement_term', 'sec_app_earliest_cr_line','policy_code','hardship_end_date','settlement_amount',
+           'payment_plan_start_date','hardship_start_date','out_prncp','emp_title','title','earliest_cr_line','desc','issue_d','id','member_id','url','grade','sub_grade',
+                   'int_rate','avg_cur_bal','out_prncp_inv','debt_settlement_flag_date','hardship_amount','hardship_reason','addr_state','funded_amnt','funded_amnt_inv','collection_recovery_fee',
+                   'collections_12_mths_ex_med','mths_since_last_major_derog','next_pymnt_d','recoveries','total_pymnt',
+                   'total_pymnt_inv','total_rec_int','last_pymnt_d','last_credit_pull_d',
+                  'total_rec_prncp','settlement_status','hardship_loan_status','hardship_status','debt_settlement_flag',
+                   'verification_status','total_rec_late_fee','verification_status_joint','hardship_flag', 'hardship_type', 'hardship_reason'
+                    'hardship_status','hardship_loan_status','acc_now_delinq','delinq_amnt','deferral_term','hardship_amount'
+                    'hardship_length','hardship_dpd','hardship_payoff_balance_amount','hardship_last_payment_amount']

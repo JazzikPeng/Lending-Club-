@@ -1,0 +1,2931 @@
+2018-04-23 18:38:01.957340: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX512F
+OMP: Warning #181: OMP_PROC_BIND: ignored because KMP_AFFINITY has been defined
+
+User settings:
+
+   KMP_AFFINITY=granularity=fine,compact,1,0
+   KMP_BLOCKTIME=1
+   KMP_SETTINGS=1
+   OMP_NUM_THREADS=4
+   OMP_PROC_BIND=true
+
+Effective settings:
+
+   KMP_ABORT_DELAY=0
+   KMP_ADAPTIVE_LOCK_PROPS='1,1024'
+   KMP_ALIGN_ALLOC=64
+   KMP_ALL_THREADPRIVATE=128
+   KMP_ATOMIC_MODE=2
+   KMP_BLOCKTIME=1
+   KMP_CPUINFO_FILE: value is not defined
+   KMP_DETERMINISTIC_REDUCTION=false
+   KMP_DEVICE_THREAD_LIMIT=2147483647
+   KMP_DISP_NUM_BUFFERS=7
+   KMP_DUPLICATE_LIB_OK=false
+   KMP_FORCE_REDUCTION: value is not defined
+   KMP_FOREIGN_THREADS_THREADPRIVATE=true
+   KMP_FORKJOIN_BARRIER='2,2'
+   KMP_FORKJOIN_BARRIER_PATTERN='hyper,hyper'
+   KMP_FORKJOIN_FRAMES=true
+   KMP_FORKJOIN_FRAMES_MODE=3
+   KMP_GTID_MODE=3
+   KMP_HANDLE_SIGNALS=false
+   KMP_HOT_TEAMS_MAX_LEVEL=1
+   KMP_HOT_TEAMS_MODE=0
+   KMP_INIT_AT_FORK=true
+   KMP_INIT_WAIT=2048
+   KMP_ITT_PREPARE_DELAY=0
+   KMP_LIBRARY=throughput
+   KMP_LOCK_KIND=queuing
+   KMP_MALLOC_POOL_INCR=1M
+   KMP_NEXT_WAIT=1024
+   KMP_NUM_LOCKS_IN_BLOCK=1
+   KMP_PLAIN_BARRIER='2,2'
+   KMP_PLAIN_BARRIER_PATTERN='hyper,hyper'
+   KMP_REDUCTION_BARRIER='1,1'
+   KMP_REDUCTION_BARRIER_PATTERN='hyper,hyper'
+   KMP_SCHEDULE='static,balanced;guided,iterative'
+   KMP_SETTINGS=true
+   KMP_SPIN_BACKOFF_PARAMS='4096,100'
+   KMP_STACKOFFSET=64
+   KMP_STACKPAD=0
+   KMP_STACKSIZE=4M
+   KMP_STORAGE_MAP=false
+   KMP_TASKING=2
+   KMP_TASKLOOP_MIN_TASKS=0
+   KMP_TASK_STEALING_CONSTRAINT=1
+   KMP_TEAMS_THREAD_LIMIT=4
+   KMP_TOPOLOGY_METHOD=all
+   KMP_USER_LEVEL_MWAIT=false
+   KMP_VERSION=false
+   KMP_WARNINGS=true
+   OMP_CANCELLATION=false
+   OMP_DEFAULT_DEVICE=0
+   OMP_DISPLAY_ENV=false
+   OMP_DYNAMIC=false
+   OMP_MAX_ACTIVE_LEVELS=2147483647
+   OMP_MAX_TASK_PRIORITY=0
+   OMP_NESTED=false
+   OMP_NUM_THREADS='4'
+   OMP_PLACES: value is not defined
+   OMP_PROC_BIND='intel'
+   OMP_SCHEDULE='static'
+   OMP_STACKSIZE=4M
+   OMP_THREAD_LIMIT=2147483647
+   OMP_WAIT_POLICY=PASSIVE
+   KMP_AFFINITY='noverbose,warnings,respect,granularity=fine,compact,1,0'
+
+Start Reading
+Data Imported
+There are 22 categorical data in our dataset.
+season
+loan_amt_to_avg_inc
+coll_to_cur
+Income is successfually normalized
+Input Dataset size is :  (851641, 58)
+There are 51 numerical features need normalization
+Number of categorical featurs in dataset: 6
+Number of numerical features in dataset: 51
+shape of x_train:  (638730, 57)
+shape of x_test:  (212911, 57)
+shape of y_train: (638730,)
+shape of y_test: (212911,)
+Train set ratio 
+ 0.20687047639624068  |  0.7931295236037593
+Train set ratio 
+ 0.2065348425782412  |  0.7934651574217588
+shape of X_train:  (638730, 57)
+shape of X_test:  (212911, 57)
+shape of Y_train: (638730,)
+shape of Y_test: (212911,)
+START TRAINING
+Epoch 1/1000
+ - 160s - loss: 0.2810 - acc: 0.8590
+Epoch 2/1000
+ - 150s - loss: 0.2549 - acc: 0.8691
+Epoch 3/1000
+ - 150s - loss: 0.2503 - acc: 0.8715
+Epoch 4/1000
+ - 150s - loss: 0.2472 - acc: 0.8732
+Epoch 5/1000
+ - 151s - loss: 0.2439 - acc: 0.8749
+Epoch 6/1000
+ - 152s - loss: 0.2392 - acc: 0.8786
+Epoch 7/1000
+ - 159s - loss: 0.2349 - acc: 0.8818
+Epoch 8/1000
+ - 153s - loss: 0.2316 - acc: 0.8838
+Epoch 9/1000
+ - 151s - loss: 0.2297 - acc: 0.8847
+Epoch 10/1000
+ - 150s - loss: 0.2283 - acc: 0.8856
+Epoch 11/1000
+ - 155s - loss: 0.2268 - acc: 0.8866
+Epoch 12/1000
+ - 157s - loss: 0.2259 - acc: 0.8870
+Epoch 13/1000
+ - 151s - loss: 0.2244 - acc: 0.8879
+Epoch 14/1000
+ - 150s - loss: 0.2235 - acc: 0.8889
+Epoch 15/1000
+ - 150s - loss: 0.2229 - acc: 0.8889
+Epoch 16/1000
+ - 149s - loss: 0.2217 - acc: 0.8896
+Epoch 17/1000
+ - 151s - loss: 0.2211 - acc: 0.8900
+Epoch 18/1000
+ - 152s - loss: 0.2207 - acc: 0.8907
+Epoch 19/1000
+ - 163s - loss: 0.2200 - acc: 0.8908
+Epoch 20/1000
+ - 164s - loss: 0.2194 - acc: 0.8909
+Epoch 21/1000
+ - 165s - loss: 0.2190 - acc: 0.8914
+Epoch 22/1000
+ - 154s - loss: 0.2184 - acc: 0.8916
+Epoch 23/1000
+ - 149s - loss: 0.2177 - acc: 0.8922
+Epoch 24/1000
+ - 149s - loss: 0.2179 - acc: 0.8922
+Epoch 25/1000
+ - 152s - loss: 0.2171 - acc: 0.8930
+Epoch 26/1000
+ - 162s - loss: 0.2165 - acc: 0.8931
+Epoch 27/1000
+ - 163s - loss: 0.2165 - acc: 0.8928
+Epoch 28/1000
+ - 162s - loss: 0.2159 - acc: 0.8934
+Epoch 29/1000
+ - 163s - loss: 0.2158 - acc: 0.8933
+Epoch 30/1000
+ - 163s - loss: 0.2153 - acc: 0.8939
+Epoch 31/1000
+ - 155s - loss: 0.2151 - acc: 0.8939
+Epoch 32/1000
+ - 150s - loss: 0.2144 - acc: 0.8942
+Epoch 33/1000
+ - 149s - loss: 0.2144 - acc: 0.8941
+Epoch 34/1000
+ - 148s - loss: 0.2142 - acc: 0.8944
+Epoch 35/1000
+ - 148s - loss: 0.2136 - acc: 0.8948
+Epoch 36/1000
+ - 149s - loss: 0.2135 - acc: 0.8948
+Epoch 37/1000
+ - 152s - loss: 0.2133 - acc: 0.8949
+Epoch 38/1000
+ - 159s - loss: 0.2128 - acc: 0.8953
+Epoch 39/1000
+ - 152s - loss: 0.2125 - acc: 0.8955
+Epoch 40/1000
+ - 148s - loss: 0.2126 - acc: 0.8953
+Epoch 41/1000
+ - 148s - loss: 0.2126 - acc: 0.8953
+Epoch 42/1000
+ - 149s - loss: 0.2121 - acc: 0.8960
+Epoch 43/1000
+ - 148s - loss: 0.2120 - acc: 0.8957
+Epoch 44/1000
+ - 148s - loss: 0.2118 - acc: 0.8958
+Epoch 45/1000
+ - 148s - loss: 0.2113 - acc: 0.8961
+Epoch 46/1000
+ - 148s - loss: 0.2113 - acc: 0.8962
+Epoch 47/1000
+ - 148s - loss: 0.2110 - acc: 0.8963
+Epoch 48/1000
+ - 149s - loss: 0.2110 - acc: 0.8961
+Epoch 49/1000
+ - 149s - loss: 0.2106 - acc: 0.8965
+Epoch 50/1000
+ - 149s - loss: 0.2104 - acc: 0.8967
+Epoch 51/1000
+ - 148s - loss: 0.2103 - acc: 0.8966
+Epoch 52/1000
+ - 149s - loss: 0.2100 - acc: 0.8970
+Epoch 53/1000
+ - 148s - loss: 0.2099 - acc: 0.8969
+Epoch 54/1000
+ - 148s - loss: 0.2096 - acc: 0.8971
+Epoch 55/1000
+ - 148s - loss: 0.2096 - acc: 0.8970
+Epoch 56/1000
+ - 149s - loss: 0.2095 - acc: 0.8970
+Epoch 57/1000
+ - 149s - loss: 0.2091 - acc: 0.8974
+Epoch 58/1000
+ - 163s - loss: 0.2092 - acc: 0.8976
+Epoch 59/1000
+ - 162s - loss: 0.2088 - acc: 0.8976
+Epoch 60/1000
+ - 163s - loss: 0.2086 - acc: 0.8979
+Epoch 61/1000
+ - 161s - loss: 0.2086 - acc: 0.8978
+Epoch 62/1000
+ - 162s - loss: 0.2086 - acc: 0.8977
+Epoch 63/1000
+ - 162s - loss: 0.2081 - acc: 0.8980
+Epoch 64/1000
+ - 161s - loss: 0.2083 - acc: 0.8976
+Epoch 65/1000
+ - 160s - loss: 0.2077 - acc: 0.8981
+Epoch 66/1000
+ - 160s - loss: 0.2078 - acc: 0.8982
+Epoch 67/1000
+ - 162s - loss: 0.2078 - acc: 0.8985
+Epoch 68/1000
+ - 160s - loss: 0.2076 - acc: 0.8982
+Epoch 69/1000
+ - 160s - loss: 0.2073 - acc: 0.8985
+Epoch 70/1000
+ - 159s - loss: 0.2073 - acc: 0.8984
+Epoch 71/1000
+ - 147s - loss: 0.2071 - acc: 0.8986
+Epoch 72/1000
+ - 147s - loss: 0.2068 - acc: 0.8986
+Epoch 73/1000
+ - 147s - loss: 0.2068 - acc: 0.8987
+Epoch 74/1000
+ - 147s - loss: 0.2067 - acc: 0.8990
+Epoch 75/1000
+ - 147s - loss: 0.2067 - acc: 0.8989
+Epoch 76/1000
+ - 149s - loss: 0.2064 - acc: 0.8989
+Epoch 77/1000
+ - 157s - loss: 0.2062 - acc: 0.8991
+Epoch 78/1000
+ - 160s - loss: 0.2061 - acc: 0.8990
+Epoch 79/1000
+ - 160s - loss: 0.2058 - acc: 0.8993
+Epoch 80/1000
+ - 161s - loss: 0.2060 - acc: 0.8993
+Epoch 81/1000
+ - 149s - loss: 0.2057 - acc: 0.8993
+Epoch 82/1000
+ - 146s - loss: 0.2056 - acc: 0.8996
+Epoch 83/1000
+ - 149s - loss: 0.2054 - acc: 0.8996
+Epoch 84/1000
+ - 158s - loss: 0.2053 - acc: 0.8997
+Epoch 85/1000
+ - 162s - loss: 0.2053 - acc: 0.8999
+Epoch 86/1000
+ - 161s - loss: 0.2052 - acc: 0.9001
+Epoch 87/1000
+ - 165s - loss: 0.2050 - acc: 0.8999
+Epoch 88/1000
+ - 160s - loss: 0.2051 - acc: 0.8999
+Epoch 89/1000
+ - 157s - loss: 0.2048 - acc: 0.9001
+Epoch 90/1000
+ - 146s - loss: 0.2047 - acc: 0.9000
+Epoch 91/1000
+ - 147s - loss: 0.2045 - acc: 0.9002
+Epoch 92/1000
+ - 146s - loss: 0.2043 - acc: 0.9005
+Epoch 93/1000
+ - 147s - loss: 0.2042 - acc: 0.9004
+Epoch 94/1000
+ - 146s - loss: 0.2039 - acc: 0.9004
+Epoch 95/1000
+ - 147s - loss: 0.2041 - acc: 0.9006
+Epoch 96/1000
+ - 146s - loss: 0.2040 - acc: 0.9003
+Epoch 97/1000
+ - 148s - loss: 0.2037 - acc: 0.9007
+Epoch 98/1000
+ - 146s - loss: 0.2036 - acc: 0.9007
+Epoch 99/1000
+ - 146s - loss: 0.2036 - acc: 0.9005
+Epoch 100/1000
+ - 146s - loss: 0.2036 - acc: 0.9008
+Epoch 101/1000
+ - 147s - loss: 0.2033 - acc: 0.9009
+Epoch 102/1000
+ - 145s - loss: 0.2034 - acc: 0.9008
+Epoch 103/1000
+ - 147s - loss: 0.2030 - acc: 0.9012
+Epoch 104/1000
+ - 147s - loss: 0.2032 - acc: 0.9010
+Epoch 105/1000
+ - 152s - loss: 0.2032 - acc: 0.9013
+Epoch 106/1000
+ - 150s - loss: 0.2028 - acc: 0.9013
+Epoch 107/1000
+ - 147s - loss: 0.2026 - acc: 0.9015
+Epoch 108/1000
+ - 146s - loss: 0.2027 - acc: 0.9011
+Epoch 109/1000
+ - 147s - loss: 0.2024 - acc: 0.9013
+Epoch 110/1000
+ - 147s - loss: 0.2023 - acc: 0.9015
+Epoch 111/1000
+ - 146s - loss: 0.2023 - acc: 0.9015
+Epoch 112/1000
+ - 146s - loss: 0.2021 - acc: 0.9017
+Epoch 113/1000
+ - 146s - loss: 0.2021 - acc: 0.9017
+Epoch 114/1000
+ - 147s - loss: 0.2019 - acc: 0.9017
+Epoch 115/1000
+ - 146s - loss: 0.2019 - acc: 0.9019
+Epoch 116/1000
+ - 146s - loss: 0.2019 - acc: 0.9018
+Epoch 117/1000
+ - 146s - loss: 0.2017 - acc: 0.9019
+Epoch 118/1000
+ - 146s - loss: 0.2014 - acc: 0.9021
+Epoch 119/1000
+ - 146s - loss: 0.2016 - acc: 0.9020
+Epoch 120/1000
+ - 148s - loss: 0.2015 - acc: 0.9022
+Epoch 121/1000
+ - 146s - loss: 0.2011 - acc: 0.9025
+Epoch 122/1000
+ - 147s - loss: 0.2013 - acc: 0.9023
+Epoch 123/1000
+ - 147s - loss: 0.2012 - acc: 0.9021
+Epoch 124/1000
+ - 146s - loss: 0.2011 - acc: 0.9025
+Epoch 125/1000
+ - 146s - loss: 0.2010 - acc: 0.9024
+Epoch 126/1000
+ - 146s - loss: 0.2008 - acc: 0.9026
+Epoch 127/1000
+ - 146s - loss: 0.2008 - acc: 0.9025
+Epoch 128/1000
+ - 147s - loss: 0.2006 - acc: 0.9026
+Epoch 129/1000
+ - 146s - loss: 0.2007 - acc: 0.9028
+Epoch 130/1000
+ - 147s - loss: 0.2005 - acc: 0.9029
+Epoch 131/1000
+ - 147s - loss: 0.2003 - acc: 0.9030
+Epoch 132/1000
+ - 147s - loss: 0.2002 - acc: 0.9030
+Epoch 133/1000
+ - 147s - loss: 0.2001 - acc: 0.9029
+Epoch 134/1000
+ - 148s - loss: 0.2001 - acc: 0.9028
+Epoch 135/1000
+ - 147s - loss: 0.1999 - acc: 0.9031
+Epoch 136/1000
+ - 148s - loss: 0.1999 - acc: 0.9031
+Epoch 137/1000
+ - 147s - loss: 0.2000 - acc: 0.9032
+Epoch 138/1000
+ - 147s - loss: 0.1999 - acc: 0.9031
+Epoch 139/1000
+ - 146s - loss: 0.1995 - acc: 0.9032
+Epoch 140/1000
+ - 148s - loss: 0.1994 - acc: 0.9032
+Epoch 141/1000
+ - 147s - loss: 0.1994 - acc: 0.9035
+Epoch 142/1000
+ - 147s - loss: 0.1993 - acc: 0.9033
+Epoch 143/1000
+ - 147s - loss: 0.1993 - acc: 0.9035
+Epoch 144/1000
+ - 147s - loss: 0.1993 - acc: 0.9035
+Epoch 145/1000
+ - 147s - loss: 0.1989 - acc: 0.9035
+Epoch 146/1000
+ - 147s - loss: 0.1990 - acc: 0.9036
+Epoch 147/1000
+ - 147s - loss: 0.1989 - acc: 0.9037
+Epoch 148/1000
+ - 147s - loss: 0.1989 - acc: 0.9038
+Epoch 149/1000
+ - 147s - loss: 0.1986 - acc: 0.9036
+Epoch 150/1000
+ - 148s - loss: 0.1986 - acc: 0.9037
+Epoch 151/1000
+ - 147s - loss: 0.1985 - acc: 0.9040
+Epoch 152/1000
+ - 148s - loss: 0.1986 - acc: 0.9039
+Epoch 153/1000
+ - 148s - loss: 0.1984 - acc: 0.9039
+Epoch 154/1000
+ - 147s - loss: 0.1980 - acc: 0.9041
+Epoch 155/1000
+ - 152s - loss: 0.1982 - acc: 0.9036
+Epoch 156/1000
+ - 150s - loss: 0.1980 - acc: 0.9043
+Epoch 157/1000
+ - 147s - loss: 0.1978 - acc: 0.9045
+Epoch 158/1000
+ - 147s - loss: 0.1978 - acc: 0.9041
+Epoch 159/1000
+ - 147s - loss: 0.1977 - acc: 0.9043
+Epoch 160/1000
+ - 147s - loss: 0.1977 - acc: 0.9043
+Epoch 161/1000
+ - 147s - loss: 0.1977 - acc: 0.9044
+Epoch 162/1000
+ - 147s - loss: 0.1977 - acc: 0.9043
+Epoch 163/1000
+ - 148s - loss: 0.1976 - acc: 0.9045
+Epoch 164/1000
+ - 147s - loss: 0.1975 - acc: 0.9045
+Epoch 165/1000
+ - 149s - loss: 0.1973 - acc: 0.9045
+Epoch 166/1000
+ - 147s - loss: 0.1973 - acc: 0.9047
+Epoch 167/1000
+ - 148s - loss: 0.1972 - acc: 0.9048
+Epoch 168/1000
+ - 147s - loss: 0.1973 - acc: 0.9045
+Epoch 169/1000
+ - 147s - loss: 0.1969 - acc: 0.9046
+Epoch 170/1000
+ - 147s - loss: 0.1968 - acc: 0.9050
+Epoch 171/1000
+ - 148s - loss: 0.1969 - acc: 0.9048
+Epoch 172/1000
+ - 147s - loss: 0.1966 - acc: 0.9053
+Epoch 173/1000
+ - 148s - loss: 0.1965 - acc: 0.9050
+Epoch 174/1000
+ - 147s - loss: 0.1967 - acc: 0.9052
+Epoch 175/1000
+ - 148s - loss: 0.1964 - acc: 0.9051
+Epoch 176/1000
+ - 147s - loss: 0.1966 - acc: 0.9049
+Epoch 177/1000
+ - 147s - loss: 0.1963 - acc: 0.9050
+Epoch 178/1000
+ - 146s - loss: 0.1962 - acc: 0.9053
+Epoch 179/1000
+ - 148s - loss: 0.1963 - acc: 0.9053
+Epoch 180/1000
+ - 147s - loss: 0.1963 - acc: 0.9052
+Epoch 181/1000
+ - 147s - loss: 0.1961 - acc: 0.9051
+Epoch 182/1000
+ - 147s - loss: 0.1961 - acc: 0.9054
+Epoch 183/1000
+ - 145s - loss: 0.1960 - acc: 0.9053
+Epoch 184/1000
+ - 145s - loss: 0.1959 - acc: 0.9053
+Epoch 185/1000
+ - 145s - loss: 0.1959 - acc: 0.9053
+Epoch 186/1000
+ - 144s - loss: 0.1957 - acc: 0.9056
+Epoch 187/1000
+ - 145s - loss: 0.1955 - acc: 0.9055
+Epoch 188/1000
+ - 145s - loss: 0.1955 - acc: 0.9057
+Epoch 189/1000
+ - 145s - loss: 0.1957 - acc: 0.9055
+Epoch 190/1000
+ - 144s - loss: 0.1953 - acc: 0.9058
+Epoch 191/1000
+ - 150s - loss: 0.1955 - acc: 0.9056
+Epoch 192/1000
+ - 150s - loss: 0.1952 - acc: 0.9059
+Epoch 193/1000
+ - 152s - loss: 0.1953 - acc: 0.9057
+Epoch 194/1000
+ - 156s - loss: 0.1949 - acc: 0.9060
+Epoch 195/1000
+ - 154s - loss: 0.1950 - acc: 0.9058
+Epoch 196/1000
+ - 153s - loss: 0.1950 - acc: 0.9057
+Epoch 197/1000
+ - 151s - loss: 0.1950 - acc: 0.9059
+Epoch 198/1000
+ - 163s - loss: 0.1947 - acc: 0.9059
+Epoch 199/1000
+ - 158s - loss: 0.1950 - acc: 0.9058
+Epoch 200/1000
+ - 149s - loss: 0.1948 - acc: 0.9058
+Epoch 201/1000
+ - 80s - loss: 0.1947 - acc: 0.9063
+Epoch 202/1000
+ - 77s - loss: 0.1946 - acc: 0.9061
+Epoch 203/1000
+ - 135s - loss: 0.1945 - acc: 0.9063
+Epoch 204/1000
+ - 163s - loss: 0.1945 - acc: 0.9064
+Epoch 205/1000
+ - 166s - loss: 0.1942 - acc: 0.9062
+Epoch 206/1000
+ - 169s - loss: 0.1944 - acc: 0.9063
+Epoch 207/1000
+ - 170s - loss: 0.1941 - acc: 0.9065
+Epoch 208/1000
+ - 170s - loss: 0.1940 - acc: 0.9062
+Epoch 209/1000
+ - 165s - loss: 0.1942 - acc: 0.9061
+Epoch 210/1000
+ - 165s - loss: 0.1942 - acc: 0.9062
+Epoch 211/1000
+ - 167s - loss: 0.1940 - acc: 0.9065
+Epoch 212/1000
+ - 165s - loss: 0.1938 - acc: 0.9064
+Epoch 213/1000
+ - 163s - loss: 0.1937 - acc: 0.9067
+Epoch 214/1000
+ - 162s - loss: 0.1937 - acc: 0.9066
+Epoch 215/1000
+ - 161s - loss: 0.1938 - acc: 0.9067
+Epoch 216/1000
+ - 162s - loss: 0.1937 - acc: 0.9067
+Epoch 217/1000
+ - 164s - loss: 0.1935 - acc: 0.9068
+Epoch 218/1000
+ - 165s - loss: 0.1935 - acc: 0.9068
+Epoch 219/1000
+ - 164s - loss: 0.1936 - acc: 0.9067
+Epoch 220/1000
+ - 165s - loss: 0.1934 - acc: 0.9066
+Epoch 221/1000
+ - 164s - loss: 0.1935 - acc: 0.9067
+Epoch 222/1000
+ - 165s - loss: 0.1930 - acc: 0.9070
+Epoch 223/1000
+ - 164s - loss: 0.1932 - acc: 0.9068
+Epoch 224/1000
+ - 165s - loss: 0.1930 - acc: 0.9071
+Epoch 225/1000
+ - 164s - loss: 0.1930 - acc: 0.9068
+Epoch 226/1000
+ - 165s - loss: 0.1929 - acc: 0.9069
+Epoch 227/1000
+ - 165s - loss: 0.1929 - acc: 0.9069
+Epoch 228/1000
+ - 165s - loss: 0.1928 - acc: 0.9070
+Epoch 229/1000
+ - 165s - loss: 0.1927 - acc: 0.9072
+Epoch 230/1000
+ - 165s - loss: 0.1927 - acc: 0.9072
+Epoch 231/1000
+ - 165s - loss: 0.1924 - acc: 0.9074
+Epoch 232/1000
+ - 164s - loss: 0.1925 - acc: 0.9072
+Epoch 233/1000
+ - 165s - loss: 0.1925 - acc: 0.9071
+Epoch 234/1000
+ - 165s - loss: 0.1925 - acc: 0.9075
+Epoch 235/1000
+ - 165s - loss: 0.1923 - acc: 0.9072
+Epoch 236/1000
+ - 163s - loss: 0.1924 - acc: 0.9073
+Epoch 237/1000
+ - 164s - loss: 0.1924 - acc: 0.9074
+Epoch 238/1000
+ - 165s - loss: 0.1921 - acc: 0.9076
+Epoch 239/1000
+ - 166s - loss: 0.1922 - acc: 0.9076
+Epoch 240/1000
+ - 165s - loss: 0.1921 - acc: 0.9074
+Epoch 241/1000
+ - 165s - loss: 0.1921 - acc: 0.9074
+Epoch 242/1000
+ - 165s - loss: 0.1917 - acc: 0.9074
+Epoch 243/1000
+ - 164s - loss: 0.1920 - acc: 0.9077
+Epoch 244/1000
+ - 165s - loss: 0.1919 - acc: 0.9076
+Epoch 245/1000
+ - 164s - loss: 0.1917 - acc: 0.9077
+Epoch 246/1000
+ - 163s - loss: 0.1918 - acc: 0.9079
+Epoch 247/1000
+ - 161s - loss: 0.1917 - acc: 0.9079
+Epoch 248/1000
+ - 161s - loss: 0.1916 - acc: 0.9078
+Epoch 249/1000
+ - 162s - loss: 0.1919 - acc: 0.9077
+Epoch 250/1000
+ - 164s - loss: 0.1918 - acc: 0.9077
+Epoch 251/1000
+ - 165s - loss: 0.1914 - acc: 0.9078
+Epoch 252/1000
+ - 163s - loss: 0.1914 - acc: 0.9080
+Epoch 253/1000
+ - 165s - loss: 0.1915 - acc: 0.9080
+Epoch 254/1000
+ - 165s - loss: 0.1913 - acc: 0.9081
+Epoch 255/1000
+ - 165s - loss: 0.1912 - acc: 0.9082
+Epoch 256/1000
+ - 165s - loss: 0.1911 - acc: 0.9081
+Epoch 257/1000
+ - 166s - loss: 0.1912 - acc: 0.9078
+Epoch 258/1000
+ - 165s - loss: 0.1912 - acc: 0.9082
+Epoch 259/1000
+ - 163s - loss: 0.1911 - acc: 0.9081
+Epoch 260/1000
+ - 164s - loss: 0.1911 - acc: 0.9081
+Epoch 261/1000
+ - 164s - loss: 0.1908 - acc: 0.9082
+Epoch 262/1000
+ - 166s - loss: 0.1910 - acc: 0.9077
+Epoch 263/1000
+ - 166s - loss: 0.1910 - acc: 0.9081
+Epoch 264/1000
+ - 166s - loss: 0.1913 - acc: 0.9078
+Epoch 265/1000
+ - 164s - loss: 0.1911 - acc: 0.9081
+Epoch 266/1000
+ - 164s - loss: 0.1912 - acc: 0.9080
+Epoch 267/1000
+ - 164s - loss: 0.1914 - acc: 0.9079
+Epoch 268/1000
+ - 164s - loss: 0.1912 - acc: 0.9080
+Epoch 269/1000
+ - 112s - loss: 0.1912 - acc: 0.9082
+Epoch 270/1000
+ - 74s - loss: 0.1914 - acc: 0.9082
+Epoch 271/1000
+ - 74s - loss: 0.1913 - acc: 0.9078
+Epoch 272/1000
+ - 74s - loss: 0.1910 - acc: 0.9084
+Epoch 273/1000
+ - 74s - loss: 0.1915 - acc: 0.9082
+Epoch 274/1000
+ - 74s - loss: 0.1908 - acc: 0.9082
+Epoch 275/1000
+ - 74s - loss: 0.1911 - acc: 0.9082
+Epoch 276/1000
+ - 74s - loss: 0.1909 - acc: 0.9084
+Epoch 277/1000
+ - 74s - loss: 0.1907 - acc: 0.9083
+Epoch 278/1000
+ - 74s - loss: 0.1904 - acc: 0.9087
+Epoch 279/1000
+ - 74s - loss: 0.1904 - acc: 0.9087
+Epoch 280/1000
+ - 75s - loss: 0.1905 - acc: 0.9085
+Epoch 281/1000
+ - 76s - loss: 0.1902 - acc: 0.9086
+Epoch 282/1000
+ - 76s - loss: 0.1907 - acc: 0.9085
+Epoch 283/1000
+ - 75s - loss: 0.1904 - acc: 0.9085
+Epoch 284/1000
+ - 75s - loss: 0.1907 - acc: 0.9082
+Epoch 285/1000
+ - 78s - loss: 0.1908 - acc: 0.9082
+Epoch 286/1000
+ - 79s - loss: 0.1903 - acc: 0.9085
+Epoch 287/1000
+ - 77s - loss: 0.1905 - acc: 0.9084
+Epoch 288/1000
+ - 77s - loss: 0.1903 - acc: 0.9087
+Epoch 289/1000
+ - 77s - loss: 0.1901 - acc: 0.9088
+Epoch 290/1000
+ - 77s - loss: 0.1903 - acc: 0.9089
+Epoch 291/1000
+ - 77s - loss: 0.1900 - acc: 0.9089
+Epoch 292/1000
+ - 77s - loss: 0.1901 - acc: 0.9089
+Epoch 293/1000
+ - 124s - loss: 0.1900 - acc: 0.9089
+Epoch 294/1000
+ - 77s - loss: 0.1898 - acc: 0.9089
+Epoch 295/1000
+ - 77s - loss: 0.1899 - acc: 0.9089
+Epoch 296/1000
+ - 76s - loss: 0.1898 - acc: 0.9087
+Epoch 297/1000
+ - 78s - loss: 0.1897 - acc: 0.9089
+Epoch 298/1000
+ - 77s - loss: 0.1903 - acc: 0.9088
+Epoch 299/1000
+ - 75s - loss: 0.1896 - acc: 0.9090
+Epoch 300/1000
+ - 75s - loss: 0.1900 - acc: 0.9090
+Epoch 301/1000
+ - 75s - loss: 0.1901 - acc: 0.9089
+Epoch 302/1000
+ - 76s - loss: 0.1900 - acc: 0.9088
+Epoch 303/1000
+ - 78s - loss: 0.1900 - acc: 0.9089
+Epoch 304/1000
+ - 77s - loss: 0.1901 - acc: 0.9088
+Epoch 305/1000
+ - 77s - loss: 0.1898 - acc: 0.9091
+Epoch 306/1000
+ - 77s - loss: 0.1896 - acc: 0.9089
+Epoch 307/1000
+ - 77s - loss: 0.1894 - acc: 0.9093
+Epoch 308/1000
+ - 77s - loss: 0.1894 - acc: 0.9094
+Epoch 309/1000
+ - 77s - loss: 0.1894 - acc: 0.9093
+Epoch 310/1000
+ - 77s - loss: 0.1895 - acc: 0.9093
+Epoch 311/1000
+ - 77s - loss: 0.1892 - acc: 0.9095
+Epoch 312/1000
+ - 77s - loss: 0.1892 - acc: 0.9093
+Epoch 313/1000
+ - 77s - loss: 0.1891 - acc: 0.9093
+Epoch 314/1000
+ - 77s - loss: 0.1889 - acc: 0.9093
+Epoch 315/1000
+ - 77s - loss: 0.1889 - acc: 0.9095
+Epoch 316/1000
+ - 76s - loss: 0.1889 - acc: 0.9096
+Epoch 317/1000
+ - 79s - loss: 0.1888 - acc: 0.9094
+Epoch 318/1000
+ - 76s - loss: 0.1892 - acc: 0.9093
+Epoch 319/1000
+ - 75s - loss: 0.1888 - acc: 0.9095
+Epoch 320/1000
+ - 77s - loss: 0.1886 - acc: 0.9097
+Epoch 321/1000
+ - 77s - loss: 0.1887 - acc: 0.9096
+Epoch 322/1000
+ - 76s - loss: 0.1890 - acc: 0.9092
+Epoch 323/1000
+ - 76s - loss: 0.1887 - acc: 0.9096
+Epoch 324/1000
+ - 77s - loss: 0.1893 - acc: 0.9092
+Epoch 325/1000
+ - 77s - loss: 0.1888 - acc: 0.9094
+Epoch 326/1000
+ - 75s - loss: 0.1888 - acc: 0.9092
+Epoch 327/1000
+ - 75s - loss: 0.1887 - acc: 0.9094
+Epoch 328/1000
+ - 78s - loss: 0.1886 - acc: 0.9094
+Epoch 329/1000
+ - 78s - loss: 0.1889 - acc: 0.9094
+Epoch 330/1000
+ - 77s - loss: 0.1889 - acc: 0.9095
+Epoch 331/1000
+ - 77s - loss: 0.1892 - acc: 0.9094
+Epoch 332/1000
+ - 77s - loss: 0.1889 - acc: 0.9090
+Epoch 333/1000
+ - 77s - loss: 0.1887 - acc: 0.9095
+Epoch 334/1000
+ - 77s - loss: 0.1886 - acc: 0.9096
+Epoch 335/1000
+ - 77s - loss: 0.1885 - acc: 0.9092
+Epoch 336/1000
+ - 77s - loss: 0.1889 - acc: 0.9094
+Epoch 337/1000
+ - 77s - loss: 0.1889 - acc: 0.9095
+Epoch 338/1000
+ - 77s - loss: 0.1891 - acc: 0.9092
+Epoch 339/1000
+ - 77s - loss: 0.1890 - acc: 0.9093
+Epoch 340/1000
+ - 78s - loss: 0.1886 - acc: 0.9094
+Epoch 341/1000
+ - 77s - loss: 0.1885 - acc: 0.9095
+Epoch 342/1000
+ - 77s - loss: 0.1885 - acc: 0.9095
+Epoch 343/1000
+ - 77s - loss: 0.1885 - acc: 0.9093
+Epoch 344/1000
+ - 77s - loss: 0.1880 - acc: 0.9098
+Epoch 345/1000
+ - 77s - loss: 0.1879 - acc: 0.9098
+Epoch 346/1000
+ - 77s - loss: 0.1884 - acc: 0.9097
+Epoch 347/1000
+ - 77s - loss: 0.1882 - acc: 0.9099
+Epoch 348/1000
+ - 77s - loss: 0.1881 - acc: 0.9097
+Epoch 349/1000
+ - 77s - loss: 0.1877 - acc: 0.9102
+Epoch 350/1000
+ - 77s - loss: 0.1884 - acc: 0.9094
+Epoch 351/1000
+ - 77s - loss: 0.1879 - acc: 0.9097
+Epoch 352/1000
+ - 77s - loss: 0.1876 - acc: 0.9101
+Epoch 353/1000
+ - 77s - loss: 0.1877 - acc: 0.9099
+Epoch 354/1000
+ - 76s - loss: 0.1879 - acc: 0.9097
+Epoch 355/1000
+ - 77s - loss: 0.1876 - acc: 0.9098
+Epoch 356/1000
+ - 78s - loss: 0.1875 - acc: 0.9100
+Epoch 357/1000
+ - 77s - loss: 0.1876 - acc: 0.9100
+Epoch 358/1000
+ - 77s - loss: 0.1877 - acc: 0.9100
+Epoch 359/1000
+ - 77s - loss: 0.1877 - acc: 0.9100
+Epoch 360/1000
+ - 77s - loss: 0.1880 - acc: 0.9099
+Epoch 361/1000
+ - 77s - loss: 0.1872 - acc: 0.9101
+Epoch 362/1000
+ - 77s - loss: 0.1874 - acc: 0.9101
+Epoch 363/1000
+ - 78s - loss: 0.1875 - acc: 0.9101
+Epoch 364/1000
+ - 75s - loss: 0.1874 - acc: 0.9104
+Epoch 365/1000
+ - 74s - loss: 0.1874 - acc: 0.9101
+Epoch 366/1000
+ - 74s - loss: 0.1870 - acc: 0.9102
+Epoch 367/1000
+ - 75s - loss: 0.1870 - acc: 0.9102
+Epoch 368/1000
+ - 76s - loss: 0.1871 - acc: 0.9101
+Epoch 369/1000
+ - 76s - loss: 0.1866 - acc: 0.9105
+Epoch 370/1000
+ - 76s - loss: 0.1869 - acc: 0.9105
+Epoch 371/1000
+ - 76s - loss: 0.1869 - acc: 0.9104
+Epoch 372/1000
+ - 76s - loss: 0.1869 - acc: 0.9102
+Epoch 373/1000
+ - 76s - loss: 0.1868 - acc: 0.9106
+Epoch 374/1000
+ - 76s - loss: 0.1872 - acc: 0.9106
+Epoch 375/1000
+ - 76s - loss: 0.1867 - acc: 0.9107
+Epoch 376/1000
+ - 75s - loss: 0.1866 - acc: 0.9103
+Epoch 377/1000
+ - 75s - loss: 0.1869 - acc: 0.9105
+Epoch 378/1000
+ - 75s - loss: 0.1867 - acc: 0.9106
+Epoch 379/1000
+ - 75s - loss: 0.1866 - acc: 0.9104
+Epoch 380/1000
+ - 75s - loss: 0.1866 - acc: 0.9105
+Epoch 381/1000
+ - 75s - loss: 0.1869 - acc: 0.9102
+Epoch 382/1000
+ - 75s - loss: 0.1873 - acc: 0.9102
+Epoch 383/1000
+ - 76s - loss: 0.1866 - acc: 0.9105
+Epoch 384/1000
+ - 75s - loss: 0.1866 - acc: 0.9106
+Epoch 385/1000
+ - 75s - loss: 0.1866 - acc: 0.9105
+Epoch 386/1000
+ - 75s - loss: 0.1864 - acc: 0.9103
+Epoch 387/1000
+ - 76s - loss: 0.1866 - acc: 0.9105
+Epoch 388/1000
+ - 75s - loss: 0.1867 - acc: 0.9104
+Epoch 389/1000
+ - 76s - loss: 0.1869 - acc: 0.9103
+Epoch 390/1000
+ - 76s - loss: 0.1863 - acc: 0.9108
+Epoch 391/1000
+ - 76s - loss: 0.1869 - acc: 0.9104
+Epoch 392/1000
+ - 76s - loss: 0.1865 - acc: 0.9106
+Epoch 393/1000
+ - 76s - loss: 0.1863 - acc: 0.9106
+Epoch 394/1000
+ - 76s - loss: 0.1865 - acc: 0.9106
+Epoch 395/1000
+ - 76s - loss: 0.1866 - acc: 0.9108
+Epoch 396/1000
+ - 76s - loss: 0.1862 - acc: 0.9110
+Epoch 397/1000
+ - 76s - loss: 0.1863 - acc: 0.9108
+Epoch 398/1000
+ - 75s - loss: 0.1862 - acc: 0.9108
+Epoch 399/1000
+ - 76s - loss: 0.1862 - acc: 0.9107
+Epoch 400/1000
+ - 76s - loss: 0.1859 - acc: 0.9109
+Epoch 401/1000
+ - 76s - loss: 0.1860 - acc: 0.9108
+Epoch 402/1000
+ - 76s - loss: 0.1860 - acc: 0.9111
+Epoch 403/1000
+ - 76s - loss: 0.1860 - acc: 0.9107
+Epoch 404/1000
+ - 76s - loss: 0.1858 - acc: 0.9110
+Epoch 405/1000
+ - 76s - loss: 0.1861 - acc: 0.9109
+Epoch 406/1000
+ - 76s - loss: 0.1856 - acc: 0.9110
+Epoch 407/1000
+ - 76s - loss: 0.1861 - acc: 0.9108
+Epoch 408/1000
+ - 75s - loss: 0.1859 - acc: 0.9110
+Epoch 409/1000
+ - 76s - loss: 0.1856 - acc: 0.9110
+Epoch 410/1000
+ - 75s - loss: 0.1864 - acc: 0.9106
+Epoch 411/1000
+ - 75s - loss: 0.1859 - acc: 0.9108
+Epoch 412/1000
+ - 75s - loss: 0.1856 - acc: 0.9109
+Epoch 413/1000
+ - 75s - loss: 0.1859 - acc: 0.9108
+Epoch 414/1000
+ - 75s - loss: 0.1858 - acc: 0.9110
+Epoch 415/1000
+ - 75s - loss: 0.1856 - acc: 0.9107
+Epoch 416/1000
+ - 75s - loss: 0.1857 - acc: 0.9111
+Epoch 417/1000
+ - 75s - loss: 0.1856 - acc: 0.9109
+Epoch 418/1000
+ - 75s - loss: 0.1855 - acc: 0.9112
+Epoch 419/1000
+ - 76s - loss: 0.1856 - acc: 0.9111
+Epoch 420/1000
+ - 75s - loss: 0.1853 - acc: 0.9114
+Epoch 421/1000
+ - 75s - loss: 0.1851 - acc: 0.9110
+Epoch 422/1000
+ - 75s - loss: 0.1855 - acc: 0.9110
+Epoch 423/1000
+ - 76s - loss: 0.1855 - acc: 0.9110
+Epoch 424/1000
+ - 75s - loss: 0.1854 - acc: 0.9113
+Epoch 425/1000
+ - 76s - loss: 0.1854 - acc: 0.9110
+Epoch 426/1000
+ - 75s - loss: 0.1854 - acc: 0.9112
+Epoch 427/1000
+ - 76s - loss: 0.1852 - acc: 0.9113
+Epoch 428/1000
+ - 75s - loss: 0.1854 - acc: 0.9112
+Epoch 429/1000
+ - 75s - loss: 0.1851 - acc: 0.9111
+Epoch 430/1000
+ - 75s - loss: 0.1854 - acc: 0.9111
+Epoch 431/1000
+ - 76s - loss: 0.1852 - acc: 0.9114
+Epoch 432/1000
+ - 76s - loss: 0.1853 - acc: 0.9112
+Epoch 433/1000
+ - 75s - loss: 0.1849 - acc: 0.9113
+Epoch 434/1000
+ - 76s - loss: 0.1849 - acc: 0.9115
+Epoch 435/1000
+ - 76s - loss: 0.1855 - acc: 0.9113
+Epoch 436/1000
+ - 76s - loss: 0.1850 - acc: 0.9114
+Epoch 437/1000
+ - 76s - loss: 0.1850 - acc: 0.9115
+Epoch 438/1000
+ - 76s - loss: 0.1848 - acc: 0.9114
+Epoch 439/1000
+ - 76s - loss: 0.1847 - acc: 0.9116
+Epoch 440/1000
+ - 75s - loss: 0.1849 - acc: 0.9114
+Epoch 441/1000
+ - 76s - loss: 0.1846 - acc: 0.9115
+Epoch 442/1000
+ - 76s - loss: 0.1850 - acc: 0.9113
+Epoch 443/1000
+ - 76s - loss: 0.1850 - acc: 0.9114
+Epoch 444/1000
+ - 76s - loss: 0.1851 - acc: 0.9116
+Epoch 445/1000
+ - 76s - loss: 0.1846 - acc: 0.9114
+Epoch 446/1000
+ - 76s - loss: 0.1847 - acc: 0.9118
+Epoch 447/1000
+ - 76s - loss: 0.1846 - acc: 0.9117
+Epoch 448/1000
+ - 76s - loss: 0.1848 - acc: 0.9113
+Epoch 449/1000
+ - 76s - loss: 0.1846 - acc: 0.9113
+Epoch 450/1000
+ - 76s - loss: 0.1845 - acc: 0.9116
+Epoch 451/1000
+ - 76s - loss: 0.1848 - acc: 0.9113
+Epoch 452/1000
+ - 76s - loss: 0.1846 - acc: 0.9115
+Epoch 453/1000
+ - 76s - loss: 0.1848 - acc: 0.9114
+Epoch 454/1000
+ - 76s - loss: 0.1844 - acc: 0.9120
+Epoch 455/1000
+ - 76s - loss: 0.1844 - acc: 0.9118
+Epoch 456/1000
+ - 76s - loss: 0.1846 - acc: 0.9117
+Epoch 457/1000
+ - 76s - loss: 0.1843 - acc: 0.9116
+Epoch 458/1000
+ - 76s - loss: 0.1846 - acc: 0.9116
+Epoch 459/1000
+ - 76s - loss: 0.1842 - acc: 0.9116
+Epoch 460/1000
+ - 76s - loss: 0.1843 - acc: 0.9119
+Epoch 461/1000
+ - 76s - loss: 0.1847 - acc: 0.9114
+Epoch 462/1000
+ - 76s - loss: 0.1840 - acc: 0.9117
+Epoch 463/1000
+ - 77s - loss: 0.1843 - acc: 0.9118
+Epoch 464/1000
+ - 76s - loss: 0.1841 - acc: 0.9120
+Epoch 465/1000
+ - 76s - loss: 0.1843 - acc: 0.9117
+Epoch 466/1000
+ - 76s - loss: 0.1844 - acc: 0.9116
+Epoch 467/1000
+ - 76s - loss: 0.1841 - acc: 0.9116
+Epoch 468/1000
+ - 76s - loss: 0.1840 - acc: 0.9120
+Epoch 469/1000
+ - 76s - loss: 0.1844 - acc: 0.9116
+Epoch 470/1000
+ - 76s - loss: 0.1842 - acc: 0.9117
+Epoch 471/1000
+ - 76s - loss: 0.1840 - acc: 0.9121
+Epoch 472/1000
+ - 76s - loss: 0.1841 - acc: 0.9120
+Epoch 473/1000
+ - 76s - loss: 0.1843 - acc: 0.9116
+Epoch 474/1000
+ - 76s - loss: 0.1841 - acc: 0.9118
+Epoch 475/1000
+ - 77s - loss: 0.1840 - acc: 0.9119
+Epoch 476/1000
+ - 76s - loss: 0.1844 - acc: 0.9116
+Epoch 477/1000
+ - 76s - loss: 0.1840 - acc: 0.9117
+Epoch 478/1000
+ - 76s - loss: 0.1840 - acc: 0.9116
+Epoch 479/1000
+ - 76s - loss: 0.1838 - acc: 0.9119
+Epoch 480/1000
+ - 76s - loss: 0.1836 - acc: 0.9122
+Epoch 481/1000
+ - 77s - loss: 0.1841 - acc: 0.9119
+Epoch 482/1000
+ - 77s - loss: 0.1838 - acc: 0.9119
+Epoch 483/1000
+ - 77s - loss: 0.1839 - acc: 0.9118
+Epoch 484/1000
+ - 77s - loss: 0.1836 - acc: 0.9122
+Epoch 485/1000
+ - 76s - loss: 0.1837 - acc: 0.9117
+Epoch 486/1000
+ - 77s - loss: 0.1837 - acc: 0.9119
+Epoch 487/1000
+ - 77s - loss: 0.1835 - acc: 0.9121
+Epoch 488/1000
+ - 76s - loss: 0.1840 - acc: 0.9120
+Epoch 489/1000
+ - 76s - loss: 0.1835 - acc: 0.9123
+Epoch 490/1000
+ - 77s - loss: 0.1839 - acc: 0.9122
+Epoch 491/1000
+ - 76s - loss: 0.1836 - acc: 0.9121
+Epoch 492/1000
+ - 76s - loss: 0.1836 - acc: 0.9119
+Epoch 493/1000
+ - 76s - loss: 0.1838 - acc: 0.9120
+Epoch 494/1000
+ - 77s - loss: 0.1835 - acc: 0.9122
+Epoch 495/1000
+ - 76s - loss: 0.1837 - acc: 0.9123
+Epoch 496/1000
+ - 76s - loss: 0.1836 - acc: 0.9121
+Epoch 497/1000
+ - 77s - loss: 0.1834 - acc: 0.9122
+Epoch 498/1000
+ - 77s - loss: 0.1833 - acc: 0.9124
+Epoch 499/1000
+ - 77s - loss: 0.1836 - acc: 0.9122
+Epoch 500/1000
+ - 77s - loss: 0.1838 - acc: 0.9119
+Epoch 501/1000
+ - 77s - loss: 0.1833 - acc: 0.9123
+Epoch 502/1000
+ - 77s - loss: 0.1833 - acc: 0.9124
+Epoch 503/1000
+ - 77s - loss: 0.1834 - acc: 0.9121
+Epoch 504/1000
+ - 77s - loss: 0.1834 - acc: 0.9124
+Epoch 505/1000
+ - 77s - loss: 0.1834 - acc: 0.9121
+Epoch 506/1000
+ - 77s - loss: 0.1832 - acc: 0.9121
+Epoch 507/1000
+ - 77s - loss: 0.1831 - acc: 0.9126
+Epoch 508/1000
+ - 77s - loss: 0.1832 - acc: 0.9124
+Epoch 509/1000
+ - 77s - loss: 0.1832 - acc: 0.9121
+Epoch 510/1000
+ - 77s - loss: 0.1833 - acc: 0.9127
+Epoch 511/1000
+ - 77s - loss: 0.1834 - acc: 0.9123
+Epoch 512/1000
+ - 77s - loss: 0.1836 - acc: 0.9120
+Epoch 513/1000
+ - 77s - loss: 0.1832 - acc: 0.9123
+Epoch 514/1000
+ - 77s - loss: 0.1834 - acc: 0.9122
+Epoch 515/1000
+ - 77s - loss: 0.1828 - acc: 0.9126
+Epoch 516/1000
+ - 77s - loss: 0.1833 - acc: 0.9121
+Epoch 517/1000
+ - 77s - loss: 0.1829 - acc: 0.9123
+Epoch 518/1000
+ - 78s - loss: 0.1833 - acc: 0.9122
+Epoch 519/1000
+ - 77s - loss: 0.1832 - acc: 0.9123
+Epoch 520/1000
+ - 77s - loss: 0.1835 - acc: 0.9124
+Epoch 521/1000
+ - 77s - loss: 0.1831 - acc: 0.9124
+Epoch 522/1000
+ - 77s - loss: 0.1829 - acc: 0.9126
+Epoch 523/1000
+ - 77s - loss: 0.1826 - acc: 0.9130
+Epoch 524/1000
+ - 77s - loss: 0.1830 - acc: 0.9125
+Epoch 525/1000
+ - 77s - loss: 0.1831 - acc: 0.9123
+Epoch 526/1000
+ - 77s - loss: 0.1829 - acc: 0.9125
+Epoch 527/1000
+ - 77s - loss: 0.1827 - acc: 0.9126
+Epoch 528/1000
+ - 77s - loss: 0.1828 - acc: 0.9126
+Epoch 529/1000
+ - 78s - loss: 0.1830 - acc: 0.9125
+Epoch 530/1000
+ - 77s - loss: 0.1826 - acc: 0.9125
+Epoch 531/1000
+ - 77s - loss: 0.1829 - acc: 0.9124
+Epoch 532/1000
+ - 77s - loss: 0.1827 - acc: 0.9125
+Epoch 533/1000
+ - 78s - loss: 0.1827 - acc: 0.9128
+Epoch 534/1000
+ - 77s - loss: 0.1826 - acc: 0.9126
+Epoch 535/1000
+ - 77s - loss: 0.1828 - acc: 0.9127
+Epoch 536/1000
+ - 77s - loss: 0.1824 - acc: 0.9127
+Epoch 537/1000
+ - 77s - loss: 0.1824 - acc: 0.9127
+Epoch 538/1000
+ - 77s - loss: 0.1825 - acc: 0.9123
+Epoch 539/1000
+ - 78s - loss: 0.1824 - acc: 0.9128
+Epoch 540/1000
+ - 77s - loss: 0.1824 - acc: 0.9127
+Epoch 541/1000
+ - 78s - loss: 0.1825 - acc: 0.9128
+Epoch 542/1000
+ - 77s - loss: 0.1825 - acc: 0.9126
+Epoch 543/1000
+ - 77s - loss: 0.1825 - acc: 0.9125
+Epoch 544/1000
+ - 77s - loss: 0.1823 - acc: 0.9128
+Epoch 545/1000
+ - 78s - loss: 0.1826 - acc: 0.9124
+Epoch 546/1000
+ - 78s - loss: 0.1823 - acc: 0.9127
+Epoch 547/1000
+ - 77s - loss: 0.1822 - acc: 0.9128
+Epoch 548/1000
+ - 77s - loss: 0.1824 - acc: 0.9127
+Epoch 549/1000
+ - 78s - loss: 0.1820 - acc: 0.9129
+Epoch 550/1000
+ - 77s - loss: 0.1822 - acc: 0.9127
+Epoch 551/1000
+ - 78s - loss: 0.1827 - acc: 0.9127
+Epoch 552/1000
+ - 78s - loss: 0.1823 - acc: 0.9129
+Epoch 553/1000
+ - 78s - loss: 0.1824 - acc: 0.9129
+Epoch 554/1000
+ - 78s - loss: 0.1824 - acc: 0.9128
+Epoch 555/1000
+ - 78s - loss: 0.1820 - acc: 0.9129
+Epoch 556/1000
+ - 78s - loss: 0.1826 - acc: 0.9126
+Epoch 557/1000
+ - 77s - loss: 0.1822 - acc: 0.9127
+Epoch 558/1000
+ - 78s - loss: 0.1824 - acc: 0.9127
+Epoch 559/1000
+ - 78s - loss: 0.1823 - acc: 0.9126
+Epoch 560/1000
+ - 78s - loss: 0.1824 - acc: 0.9124
+Epoch 561/1000
+ - 77s - loss: 0.1823 - acc: 0.9131
+Epoch 562/1000
+ - 77s - loss: 0.1823 - acc: 0.9130
+Epoch 563/1000
+ - 78s - loss: 0.1820 - acc: 0.9130
+Epoch 564/1000
+ - 78s - loss: 0.1818 - acc: 0.9129
+Epoch 565/1000
+ - 79s - loss: 0.1820 - acc: 0.9133
+Epoch 566/1000
+ - 78s - loss: 0.1822 - acc: 0.9132
+Epoch 567/1000
+ - 78s - loss: 0.1821 - acc: 0.9129
+Epoch 568/1000
+ - 79s - loss: 0.1821 - acc: 0.9128
+Epoch 569/1000
+ - 78s - loss: 0.1820 - acc: 0.9128
+Epoch 570/1000
+ - 78s - loss: 0.1822 - acc: 0.9126
+Epoch 571/1000
+ - 78s - loss: 0.1819 - acc: 0.9129
+Epoch 572/1000
+ - 79s - loss: 0.1819 - acc: 0.9129
+Epoch 573/1000
+ - 78s - loss: 0.1821 - acc: 0.9131
+Epoch 574/1000
+ - 78s - loss: 0.1818 - acc: 0.9131
+Epoch 575/1000
+ - 78s - loss: 0.1820 - acc: 0.9129
+Epoch 576/1000
+ - 78s - loss: 0.1820 - acc: 0.9131
+Epoch 577/1000
+ - 78s - loss: 0.1821 - acc: 0.9133
+Epoch 578/1000
+ - 78s - loss: 0.1819 - acc: 0.9130
+Epoch 579/1000
+ - 78s - loss: 0.1818 - acc: 0.9130
+Epoch 580/1000
+ - 78s - loss: 0.1818 - acc: 0.9130
+Epoch 581/1000
+ - 78s - loss: 0.1820 - acc: 0.9130
+Epoch 582/1000
+ - 78s - loss: 0.1817 - acc: 0.9132
+Epoch 583/1000
+ - 78s - loss: 0.1817 - acc: 0.9132
+Epoch 584/1000
+ - 78s - loss: 0.1814 - acc: 0.9132
+Epoch 585/1000
+ - 78s - loss: 0.1817 - acc: 0.9132
+Epoch 586/1000
+ - 78s - loss: 0.1819 - acc: 0.9132
+Epoch 587/1000
+ - 79s - loss: 0.1818 - acc: 0.9131
+Epoch 588/1000
+ - 78s - loss: 0.1815 - acc: 0.9132
+Epoch 589/1000
+ - 78s - loss: 0.1814 - acc: 0.9134
+Epoch 590/1000
+ - 78s - loss: 0.1815 - acc: 0.9134
+Epoch 591/1000
+ - 78s - loss: 0.1816 - acc: 0.9132
+Epoch 592/1000
+ - 78s - loss: 0.1814 - acc: 0.9132
+Epoch 593/1000
+ - 78s - loss: 0.1814 - acc: 0.9134
+Epoch 594/1000
+ - 78s - loss: 0.1818 - acc: 0.9133
+Epoch 595/1000
+ - 79s - loss: 0.1819 - acc: 0.9133
+Epoch 596/1000
+ - 76s - loss: 0.1814 - acc: 0.9133
+Epoch 597/1000
+ - 77s - loss: 0.1817 - acc: 0.9131
+Epoch 598/1000
+ - 78s - loss: 0.1815 - acc: 0.9132
+Epoch 599/1000
+ - 78s - loss: 0.1814 - acc: 0.9132
+Epoch 600/1000
+ - 78s - loss: 0.1817 - acc: 0.9133
+Epoch 601/1000
+ - 78s - loss: 0.1818 - acc: 0.9134
+Epoch 602/1000
+ - 78s - loss: 0.1818 - acc: 0.9130
+Epoch 603/1000
+ - 78s - loss: 0.1820 - acc: 0.9130
+Epoch 604/1000
+ - 78s - loss: 0.1815 - acc: 0.9136
+Epoch 605/1000
+ - 78s - loss: 0.1815 - acc: 0.9133
+Epoch 606/1000
+ - 78s - loss: 0.1819 - acc: 0.9133
+Epoch 607/1000
+ - 78s - loss: 0.1815 - acc: 0.9134
+Epoch 608/1000
+ - 78s - loss: 0.1815 - acc: 0.9135
+Epoch 609/1000
+ - 78s - loss: 0.1813 - acc: 0.9135
+Epoch 610/1000
+ - 78s - loss: 0.1814 - acc: 0.9130
+Epoch 611/1000
+ - 78s - loss: 0.1816 - acc: 0.9132
+Epoch 612/1000
+ - 77s - loss: 0.1815 - acc: 0.9132
+Epoch 613/1000
+ - 76s - loss: 0.1811 - acc: 0.9132
+Epoch 614/1000
+ - 78s - loss: 0.1813 - acc: 0.9132
+Epoch 615/1000
+ - 78s - loss: 0.1814 - acc: 0.9134
+Epoch 616/1000
+ - 78s - loss: 0.1813 - acc: 0.9132
+Epoch 617/1000
+ - 78s - loss: 0.1813 - acc: 0.9132
+Epoch 618/1000
+ - 79s - loss: 0.1813 - acc: 0.9133
+Epoch 619/1000
+ - 78s - loss: 0.1812 - acc: 0.9134
+Epoch 620/1000
+ - 78s - loss: 0.1814 - acc: 0.9134
+Epoch 621/1000
+ - 78s - loss: 0.1807 - acc: 0.9135
+Epoch 622/1000
+ - 78s - loss: 0.1814 - acc: 0.9132
+Epoch 623/1000
+ - 78s - loss: 0.1811 - acc: 0.9133
+Epoch 624/1000
+ - 78s - loss: 0.1810 - acc: 0.9137
+Epoch 625/1000
+ - 78s - loss: 0.1811 - acc: 0.9135
+Epoch 626/1000
+ - 77s - loss: 0.1811 - acc: 0.9135
+Epoch 627/1000
+ - 77s - loss: 0.1806 - acc: 0.9135
+Epoch 628/1000
+ - 76s - loss: 0.1807 - acc: 0.9133
+Epoch 629/1000
+ - 76s - loss: 0.1809 - acc: 0.9137
+Epoch 630/1000
+ - 77s - loss: 0.1809 - acc: 0.9136
+Epoch 631/1000
+ - 77s - loss: 0.1809 - acc: 0.9135
+Epoch 632/1000
+ - 78s - loss: 0.1806 - acc: 0.9138
+Epoch 633/1000
+ - 79s - loss: 0.1809 - acc: 0.9135
+Epoch 634/1000
+ - 78s - loss: 0.1811 - acc: 0.9136
+Epoch 635/1000
+ - 78s - loss: 0.1810 - acc: 0.9137
+Epoch 636/1000
+ - 78s - loss: 0.1809 - acc: 0.9136
+Epoch 637/1000
+ - 78s - loss: 0.1808 - acc: 0.9138
+Epoch 638/1000
+ - 78s - loss: 0.1807 - acc: 0.9138
+Epoch 639/1000
+ - 109s - loss: 0.1807 - acc: 0.9138
+Epoch 640/1000
+ - 152s - loss: 0.1806 - acc: 0.9136
+Epoch 641/1000
+ - 157s - loss: 0.1808 - acc: 0.9135
+Epoch 642/1000
+ - 165s - loss: 0.1806 - acc: 0.9137
+Epoch 643/1000
+ - 165s - loss: 0.1806 - acc: 0.9137
+Epoch 644/1000
+ - 166s - loss: 0.1807 - acc: 0.9135
+Epoch 645/1000
+ - 166s - loss: 0.1805 - acc: 0.9136
+Epoch 646/1000
+ - 169s - loss: 0.1806 - acc: 0.9139
+Epoch 647/1000
+ - 168s - loss: 0.1807 - acc: 0.9138
+Epoch 648/1000
+ - 160s - loss: 0.1803 - acc: 0.9139
+Epoch 649/1000
+ - 161s - loss: 0.1804 - acc: 0.9139
+Epoch 650/1000
+ - 169s - loss: 0.1809 - acc: 0.9136
+Epoch 651/1000
+ - 167s - loss: 0.1804 - acc: 0.9137
+Epoch 652/1000
+ - 167s - loss: 0.1805 - acc: 0.9136
+Epoch 653/1000
+ - 161s - loss: 0.1804 - acc: 0.9139
+Epoch 654/1000
+ - 158s - loss: 0.1804 - acc: 0.9138
+Epoch 655/1000
+ - 167s - loss: 0.1805 - acc: 0.9136
+Epoch 656/1000
+ - 167s - loss: 0.1805 - acc: 0.9138
+Epoch 657/1000
+ - 168s - loss: 0.1804 - acc: 0.9138
+Epoch 658/1000
+ - 161s - loss: 0.1801 - acc: 0.9140
+Epoch 659/1000
+ - 160s - loss: 0.1803 - acc: 0.9140
+Epoch 660/1000
+ - 168s - loss: 0.1809 - acc: 0.9137
+Epoch 661/1000
+ - 166s - loss: 0.1801 - acc: 0.9137
+Epoch 662/1000
+ - 170s - loss: 0.1803 - acc: 0.9140
+Epoch 663/1000
+ - 167s - loss: 0.1803 - acc: 0.9139
+Epoch 664/1000
+ - 166s - loss: 0.1802 - acc: 0.9139
+Epoch 665/1000
+ - 155s - loss: 0.1805 - acc: 0.9138
+Epoch 666/1000
+ - 155s - loss: 0.1805 - acc: 0.9136
+Epoch 667/1000
+ - 156s - loss: 0.1802 - acc: 0.9139
+Epoch 668/1000
+ - 156s - loss: 0.1803 - acc: 0.9140
+Epoch 669/1000
+ - 156s - loss: 0.1807 - acc: 0.9137
+Epoch 670/1000
+ - 155s - loss: 0.1800 - acc: 0.9143
+Epoch 671/1000
+ - 159s - loss: 0.1801 - acc: 0.9140
+Epoch 672/1000
+ - 166s - loss: 0.1799 - acc: 0.9140
+Epoch 673/1000
+ - 156s - loss: 0.1802 - acc: 0.9142
+Epoch 674/1000
+ - 156s - loss: 0.1804 - acc: 0.9138
+Epoch 675/1000
+ - 156s - loss: 0.1803 - acc: 0.9140
+Epoch 676/1000
+ - 155s - loss: 0.1803 - acc: 0.9141
+Epoch 677/1000
+ - 157s - loss: 0.1802 - acc: 0.9140
+Epoch 678/1000
+ - 156s - loss: 0.1802 - acc: 0.9138
+Epoch 679/1000
+ - 157s - loss: 0.1799 - acc: 0.9140
+Epoch 680/1000
+ - 155s - loss: 0.1801 - acc: 0.9140
+Epoch 681/1000
+ - 156s - loss: 0.1801 - acc: 0.9138
+Epoch 682/1000
+ - 156s - loss: 0.1801 - acc: 0.9141
+Epoch 683/1000
+ - 155s - loss: 0.1800 - acc: 0.9142
+Epoch 684/1000
+ - 154s - loss: 0.1801 - acc: 0.9139
+Epoch 685/1000
+ - 157s - loss: 0.1798 - acc: 0.9143
+Epoch 686/1000
+ - 156s - loss: 0.1799 - acc: 0.9140
+Epoch 687/1000
+ - 157s - loss: 0.1800 - acc: 0.9138
+Epoch 688/1000
+ - 156s - loss: 0.1799 - acc: 0.9141
+Epoch 689/1000
+ - 156s - loss: 0.1798 - acc: 0.9138
+Epoch 690/1000
+ - 157s - loss: 0.1796 - acc: 0.9145
+Epoch 691/1000
+ - 157s - loss: 0.1801 - acc: 0.9140
+Epoch 692/1000
+ - 157s - loss: 0.1797 - acc: 0.9144
+Epoch 693/1000
+ - 157s - loss: 0.1796 - acc: 0.9142
+Epoch 694/1000
+ - 156s - loss: 0.1795 - acc: 0.9146
+Epoch 695/1000
+ - 157s - loss: 0.1798 - acc: 0.9144
+Epoch 696/1000
+ - 158s - loss: 0.1798 - acc: 0.9143
+Epoch 697/1000
+ - 164s - loss: 0.1798 - acc: 0.9141
+Epoch 698/1000
+ - 156s - loss: 0.1797 - acc: 0.9142
+Epoch 699/1000
+ - 154s - loss: 0.1799 - acc: 0.9139
+Epoch 700/1000
+ - 156s - loss: 0.1796 - acc: 0.9145
+Epoch 701/1000
+ - 156s - loss: 0.1798 - acc: 0.9143
+Epoch 702/1000
+ - 156s - loss: 0.1795 - acc: 0.9144
+Epoch 703/1000
+ - 156s - loss: 0.1796 - acc: 0.9142
+Epoch 704/1000
+ - 161s - loss: 0.1797 - acc: 0.9144
+Epoch 705/1000
+ - 166s - loss: 0.1797 - acc: 0.9142
+Epoch 706/1000
+ - 160s - loss: 0.1795 - acc: 0.9144
+Epoch 707/1000
+ - 157s - loss: 0.1798 - acc: 0.9143
+Epoch 708/1000
+ - 157s - loss: 0.1797 - acc: 0.9140
+Epoch 709/1000
+ - 164s - loss: 0.1800 - acc: 0.9139
+Epoch 710/1000
+ - 161s - loss: 0.1797 - acc: 0.9142
+Epoch 711/1000
+ - 86s - loss: 0.1797 - acc: 0.9143
+Epoch 712/1000
+ - 81s - loss: 0.1794 - acc: 0.9142
+Epoch 713/1000
+ - 79s - loss: 0.1797 - acc: 0.9141
+Epoch 714/1000
+ - 79s - loss: 0.1795 - acc: 0.9143
+Epoch 715/1000
+ - 141s - loss: 0.1795 - acc: 0.9141
+Epoch 716/1000
+ - 176s - loss: 0.1797 - acc: 0.9141
+Epoch 717/1000
+ - 185s - loss: 0.1796 - acc: 0.9142
+Epoch 718/1000
+ - 183s - loss: 0.1795 - acc: 0.9144
+Epoch 719/1000
+ - 183s - loss: 0.1796 - acc: 0.9140
+Epoch 720/1000
+ - 184s - loss: 0.1795 - acc: 0.9142
+Epoch 721/1000
+ - 174s - loss: 0.1792 - acc: 0.9144
+Epoch 722/1000
+ - 173s - loss: 0.1792 - acc: 0.9143
+Epoch 723/1000
+ - 178s - loss: 0.1793 - acc: 0.9144
+Epoch 724/1000
+ - 176s - loss: 0.1792 - acc: 0.9144
+Epoch 725/1000
+ - 180s - loss: 0.1790 - acc: 0.9144
+Epoch 726/1000
+ - 175s - loss: 0.1792 - acc: 0.9144
+Epoch 727/1000
+ - 177s - loss: 0.1795 - acc: 0.9141
+Epoch 728/1000
+ - 180s - loss: 0.1793 - acc: 0.9145
+Epoch 729/1000
+ - 184s - loss: 0.1791 - acc: 0.9145
+Epoch 730/1000
+ - 185s - loss: 0.1795 - acc: 0.9145
+Epoch 731/1000
+ - 184s - loss: 0.1790 - acc: 0.9147
+Epoch 732/1000
+ - 184s - loss: 0.1794 - acc: 0.9146
+Epoch 733/1000
+ - 184s - loss: 0.1793 - acc: 0.9142
+Epoch 734/1000
+ - 185s - loss: 0.1792 - acc: 0.9144
+Epoch 735/1000
+ - 184s - loss: 0.1791 - acc: 0.9145
+Epoch 736/1000
+ - 181s - loss: 0.1793 - acc: 0.9144
+Epoch 737/1000
+ - 173s - loss: 0.1790 - acc: 0.9145
+Epoch 738/1000
+ - 177s - loss: 0.1792 - acc: 0.9144
+Epoch 739/1000
+ - 177s - loss: 0.1789 - acc: 0.9145
+Epoch 740/1000
+ - 183s - loss: 0.1792 - acc: 0.9144
+Epoch 741/1000
+ - 182s - loss: 0.1790 - acc: 0.9146
+Epoch 742/1000
+ - 181s - loss: 0.1794 - acc: 0.9142
+Epoch 743/1000
+ - 176s - loss: 0.1792 - acc: 0.9145
+Epoch 744/1000
+ - 181s - loss: 0.1790 - acc: 0.9145
+Epoch 745/1000
+ - 176s - loss: 0.1789 - acc: 0.9144
+Epoch 746/1000
+ - 170s - loss: 0.1789 - acc: 0.9145
+Epoch 747/1000
+ - 171s - loss: 0.1789 - acc: 0.9145
+Epoch 748/1000
+ - 169s - loss: 0.1789 - acc: 0.9147
+Epoch 749/1000
+ - 170s - loss: 0.1789 - acc: 0.9144
+Epoch 750/1000
+ - 168s - loss: 0.1790 - acc: 0.9145
+Epoch 751/1000
+ - 171s - loss: 0.1790 - acc: 0.9146
+Epoch 752/1000
+ - 171s - loss: 0.1791 - acc: 0.9145
+Epoch 753/1000
+ - 109s - loss: 0.1793 - acc: 0.9143
+Epoch 754/1000
+ - 78s - loss: 0.1788 - acc: 0.9145
+Epoch 755/1000
+ - 78s - loss: 0.1788 - acc: 0.9144
+Epoch 756/1000
+ - 79s - loss: 0.1791 - acc: 0.9145
+Epoch 757/1000
+ - 79s - loss: 0.1787 - acc: 0.9147
+Epoch 758/1000
+ - 79s - loss: 0.1786 - acc: 0.9149
+Epoch 759/1000
+ - 79s - loss: 0.1786 - acc: 0.9147
+Epoch 760/1000
+ - 79s - loss: 0.1785 - acc: 0.9148
+Epoch 761/1000
+ - 78s - loss: 0.1789 - acc: 0.9147
+Epoch 762/1000
+ - 78s - loss: 0.1789 - acc: 0.9145
+Epoch 763/1000
+ - 77s - loss: 0.1790 - acc: 0.9146
+Epoch 764/1000
+ - 78s - loss: 0.1792 - acc: 0.9144
+Epoch 765/1000
+ - 77s - loss: 0.1788 - acc: 0.9145
+Epoch 766/1000
+ - 77s - loss: 0.1786 - acc: 0.9148
+Epoch 767/1000
+ - 78s - loss: 0.1786 - acc: 0.9148
+Epoch 768/1000
+ - 78s - loss: 0.1785 - acc: 0.9145
+Epoch 769/1000
+ - 79s - loss: 0.1787 - acc: 0.9147
+Epoch 770/1000
+ - 79s - loss: 0.1785 - acc: 0.9148
+Epoch 771/1000
+ - 79s - loss: 0.1786 - acc: 0.9147
+Epoch 772/1000
+ - 79s - loss: 0.1787 - acc: 0.9147
+Epoch 773/1000
+ - 79s - loss: 0.1788 - acc: 0.9145
+Epoch 774/1000
+ - 80s - loss: 0.1787 - acc: 0.9145
+Epoch 775/1000
+ - 79s - loss: 0.1787 - acc: 0.9148
+Epoch 776/1000
+ - 78s - loss: 0.1788 - acc: 0.9147
+Epoch 777/1000
+ - 78s - loss: 0.1789 - acc: 0.9146
+Epoch 778/1000
+ - 78s - loss: 0.1784 - acc: 0.9147
+Epoch 779/1000
+ - 79s - loss: 0.1786 - acc: 0.9145
+Epoch 780/1000
+ - 77s - loss: 0.1787 - acc: 0.9147
+Epoch 781/1000
+ - 78s - loss: 0.1785 - acc: 0.9146
+Epoch 782/1000
+ - 78s - loss: 0.1786 - acc: 0.9146
+Epoch 783/1000
+ - 78s - loss: 0.1785 - acc: 0.9151
+Epoch 784/1000
+ - 79s - loss: 0.1782 - acc: 0.9151
+Epoch 785/1000
+ - 79s - loss: 0.1783 - acc: 0.9149
+Epoch 786/1000
+ - 79s - loss: 0.1788 - acc: 0.9147
+Epoch 787/1000
+ - 80s - loss: 0.1783 - acc: 0.9147
+Epoch 788/1000
+ - 79s - loss: 0.1786 - acc: 0.9147
+Epoch 789/1000
+ - 79s - loss: 0.1783 - acc: 0.9147
+Epoch 790/1000
+ - 80s - loss: 0.1785 - acc: 0.9148
+Epoch 791/1000
+ - 79s - loss: 0.1783 - acc: 0.9149
+Epoch 792/1000
+ - 79s - loss: 0.1786 - acc: 0.9149
+Epoch 793/1000
+ - 79s - loss: 0.1787 - acc: 0.9147
+Epoch 794/1000
+ - 79s - loss: 0.1783 - acc: 0.9149
+Epoch 795/1000
+ - 79s - loss: 0.1785 - acc: 0.9148
+Epoch 796/1000
+ - 79s - loss: 0.1784 - acc: 0.9148
+Epoch 797/1000
+ - 79s - loss: 0.1783 - acc: 0.9149
+Epoch 798/1000
+ - 79s - loss: 0.1780 - acc: 0.9152
+Epoch 799/1000
+ - 79s - loss: 0.1783 - acc: 0.9146
+Epoch 800/1000
+ - 79s - loss: 0.1784 - acc: 0.9148
+Epoch 801/1000
+ - 78s - loss: 0.1784 - acc: 0.9150
+Epoch 802/1000
+ - 77s - loss: 0.1783 - acc: 0.9148
+Epoch 803/1000
+ - 78s - loss: 0.1784 - acc: 0.9149
+Epoch 804/1000
+ - 78s - loss: 0.1783 - acc: 0.9148
+Epoch 805/1000
+ - 77s - loss: 0.1785 - acc: 0.9147
+Epoch 806/1000
+ - 78s - loss: 0.1783 - acc: 0.9148
+Epoch 807/1000
+ - 78s - loss: 0.1783 - acc: 0.9148
+Epoch 808/1000
+ - 77s - loss: 0.1780 - acc: 0.9150
+Epoch 809/1000
+ - 78s - loss: 0.1783 - acc: 0.9149
+Epoch 810/1000
+ - 77s - loss: 0.1778 - acc: 0.9152
+Epoch 811/1000
+ - 78s - loss: 0.1782 - acc: 0.9148
+Epoch 812/1000
+ - 78s - loss: 0.1780 - acc: 0.9148
+Epoch 813/1000
+ - 79s - loss: 0.1779 - acc: 0.9149
+Epoch 814/1000
+ - 79s - loss: 0.1779 - acc: 0.9153
+Epoch 815/1000
+ - 79s - loss: 0.1778 - acc: 0.9153
+Epoch 816/1000
+ - 79s - loss: 0.1784 - acc: 0.9148
+Epoch 817/1000
+ - 80s - loss: 0.1782 - acc: 0.9146
+Epoch 818/1000
+ - 78s - loss: 0.1781 - acc: 0.9150
+Epoch 819/1000
+ - 78s - loss: 0.1782 - acc: 0.9150
+Epoch 820/1000
+ - 78s - loss: 0.1782 - acc: 0.9150
+Epoch 821/1000
+ - 79s - loss: 0.1780 - acc: 0.9151
+Epoch 822/1000
+ - 78s - loss: 0.1780 - acc: 0.9150
+Epoch 823/1000
+ - 78s - loss: 0.1783 - acc: 0.9148
+Epoch 824/1000
+ - 78s - loss: 0.1781 - acc: 0.9151
+Epoch 825/1000
+ - 78s - loss: 0.1781 - acc: 0.9150
+Epoch 826/1000
+ - 78s - loss: 0.1778 - acc: 0.9151
+Epoch 827/1000
+ - 78s - loss: 0.1779 - acc: 0.9151
+Epoch 828/1000
+ - 77s - loss: 0.1783 - acc: 0.9149
+Epoch 829/1000
+ - 78s - loss: 0.1778 - acc: 0.9152
+Epoch 830/1000
+ - 78s - loss: 0.1778 - acc: 0.9151
+Epoch 831/1000
+ - 77s - loss: 0.1780 - acc: 0.9149
+Epoch 832/1000
+ - 79s - loss: 0.1781 - acc: 0.9149
+Epoch 833/1000
+ - 79s - loss: 0.1777 - acc: 0.9150
+Epoch 834/1000
+ - 78s - loss: 0.1778 - acc: 0.9151
+Epoch 835/1000
+ - 78s - loss: 0.1782 - acc: 0.9149
+Epoch 836/1000
+ - 79s - loss: 0.1779 - acc: 0.9151
+Epoch 837/1000
+ - 77s - loss: 0.1779 - acc: 0.9151
+Epoch 838/1000
+ - 77s - loss: 0.1782 - acc: 0.9150
+Epoch 839/1000
+ - 77s - loss: 0.1778 - acc: 0.9152
+Epoch 840/1000
+ - 78s - loss: 0.1779 - acc: 0.9151
+Epoch 841/1000
+ - 78s - loss: 0.1784 - acc: 0.9149
+Epoch 842/1000
+ - 78s - loss: 0.1780 - acc: 0.9151
+Epoch 843/1000
+ - 78s - loss: 0.1780 - acc: 0.9149
+Epoch 844/1000
+ - 78s - loss: 0.1779 - acc: 0.9154
+Epoch 845/1000
+ - 78s - loss: 0.1777 - acc: 0.9151
+Epoch 846/1000
+ - 78s - loss: 0.1778 - acc: 0.9152
+Epoch 847/1000
+ - 78s - loss: 0.1778 - acc: 0.9151
+Epoch 848/1000
+ - 79s - loss: 0.1775 - acc: 0.9151
+Epoch 849/1000
+ - 78s - loss: 0.1776 - acc: 0.9155
+Epoch 850/1000
+ - 78s - loss: 0.1779 - acc: 0.9150
+Epoch 851/1000
+ - 79s - loss: 0.1780 - acc: 0.9151
+Epoch 852/1000
+ - 78s - loss: 0.1779 - acc: 0.9154
+Epoch 853/1000
+ - 78s - loss: 0.1778 - acc: 0.9153
+Epoch 854/1000
+ - 78s - loss: 0.1777 - acc: 0.9151
+Epoch 855/1000
+ - 79s - loss: 0.1778 - acc: 0.9154
+Epoch 856/1000
+ - 78s - loss: 0.1778 - acc: 0.9151
+Epoch 857/1000
+ - 78s - loss: 0.1775 - acc: 0.9156
+Epoch 858/1000
+ - 78s - loss: 0.1780 - acc: 0.9152
+Epoch 859/1000
+ - 78s - loss: 0.1776 - acc: 0.9152
+Epoch 860/1000
+ - 77s - loss: 0.1775 - acc: 0.9152
+Epoch 861/1000
+ - 77s - loss: 0.1776 - acc: 0.9151
+Epoch 862/1000
+ - 77s - loss: 0.1776 - acc: 0.9153
+Epoch 863/1000
+ - 77s - loss: 0.1777 - acc: 0.9151
+Epoch 864/1000
+ - 78s - loss: 0.1777 - acc: 0.9154
+Epoch 865/1000
+ - 78s - loss: 0.1777 - acc: 0.9153
+Epoch 866/1000
+ - 78s - loss: 0.1778 - acc: 0.9151
+Epoch 867/1000
+ - 79s - loss: 0.1777 - acc: 0.9154
+Epoch 868/1000
+ - 77s - loss: 0.1775 - acc: 0.9153
+Epoch 869/1000
+ - 77s - loss: 0.1778 - acc: 0.9153
+Epoch 870/1000
+ - 77s - loss: 0.1777 - acc: 0.9153
+Epoch 871/1000
+ - 77s - loss: 0.1779 - acc: 0.9153
+Epoch 872/1000
+ - 76s - loss: 0.1777 - acc: 0.9153
+Epoch 873/1000
+ - 77s - loss: 0.1776 - acc: 0.9153
+Epoch 874/1000
+ - 78s - loss: 0.1774 - acc: 0.9154
+Epoch 875/1000
+ - 77s - loss: 0.1776 - acc: 0.9154
+Epoch 876/1000
+ - 77s - loss: 0.1774 - acc: 0.9154
+Epoch 877/1000
+ - 77s - loss: 0.1774 - acc: 0.9155
+Epoch 878/1000
+ - 78s - loss: 0.1772 - acc: 0.9156
+Epoch 879/1000
+ - 78s - loss: 0.1775 - acc: 0.9155
+Epoch 880/1000
+ - 77s - loss: 0.1774 - acc: 0.9154
+Epoch 881/1000
+ - 78s - loss: 0.1777 - acc: 0.9153
+Epoch 882/1000
+ - 78s - loss: 0.1772 - acc: 0.9157
+Epoch 883/1000
+ - 78s - loss: 0.1778 - acc: 0.9153
+Epoch 884/1000
+ - 77s - loss: 0.1772 - acc: 0.9153
+Epoch 885/1000
+ - 78s - loss: 0.1774 - acc: 0.9154
+Epoch 886/1000
+ - 78s - loss: 0.1775 - acc: 0.9151
+Epoch 887/1000
+ - 77s - loss: 0.1772 - acc: 0.9157
+Epoch 888/1000
+ - 76s - loss: 0.1775 - acc: 0.9153
+Epoch 889/1000
+ - 76s - loss: 0.1773 - acc: 0.9152
+Epoch 890/1000
+ - 77s - loss: 0.1775 - acc: 0.9156
+Epoch 891/1000
+ - 77s - loss: 0.1778 - acc: 0.9152
+Epoch 892/1000
+ - 77s - loss: 0.1777 - acc: 0.9154
+Epoch 893/1000
+ - 78s - loss: 0.1771 - acc: 0.9156
+Epoch 894/1000
+ - 78s - loss: 0.1772 - acc: 0.9156
+Epoch 895/1000
+ - 78s - loss: 0.1770 - acc: 0.9156
+Epoch 896/1000
+ - 78s - loss: 0.1769 - acc: 0.9157
+Epoch 897/1000
+ - 77s - loss: 0.1772 - acc: 0.9156
+Epoch 898/1000
+ - 77s - loss: 0.1774 - acc: 0.9157
+Epoch 899/1000
+ - 76s - loss: 0.1775 - acc: 0.9153
+Epoch 900/1000
+ - 76s - loss: 0.1768 - acc: 0.9157
+Epoch 901/1000
+ - 76s - loss: 0.1775 - acc: 0.9154
+Epoch 902/1000
+ - 76s - loss: 0.1772 - acc: 0.9155
+Epoch 903/1000
+ - 76s - loss: 0.1772 - acc: 0.9156
+Epoch 904/1000
+ - 76s - loss: 0.1775 - acc: 0.9153
+Epoch 905/1000
+ - 76s - loss: 0.1774 - acc: 0.9152
+Epoch 906/1000
+ - 77s - loss: 0.1770 - acc: 0.9157
+Epoch 907/1000
+ - 76s - loss: 0.1775 - acc: 0.9155
+Epoch 908/1000
+ - 76s - loss: 0.1771 - acc: 0.9154
+Epoch 909/1000
+ - 77s - loss: 0.1774 - acc: 0.9154
+Epoch 910/1000
+ - 76s - loss: 0.1773 - acc: 0.9158
+Epoch 911/1000
+ - 76s - loss: 0.1771 - acc: 0.9156
+Epoch 912/1000
+ - 76s - loss: 0.1771 - acc: 0.9158
+Epoch 913/1000
+ - 76s - loss: 0.1772 - acc: 0.9155
+Epoch 914/1000
+ - 77s - loss: 0.1771 - acc: 0.9155
+Epoch 915/1000
+ - 76s - loss: 0.1771 - acc: 0.9156
+Epoch 916/1000
+ - 76s - loss: 0.1767 - acc: 0.9158
+Epoch 917/1000
+ - 76s - loss: 0.1774 - acc: 0.9153
+Epoch 918/1000
+ - 77s - loss: 0.1771 - acc: 0.9155
+Epoch 919/1000
+ - 76s - loss: 0.1773 - acc: 0.9156
+Epoch 920/1000
+ - 76s - loss: 0.1771 - acc: 0.9155
+Epoch 921/1000
+ - 76s - loss: 0.1769 - acc: 0.9155
+Epoch 922/1000
+ - 77s - loss: 0.1770 - acc: 0.9157
+Epoch 923/1000
+ - 76s - loss: 0.1769 - acc: 0.9157
+Epoch 924/1000
+ - 76s - loss: 0.1771 - acc: 0.9157
+Epoch 925/1000
+ - 76s - loss: 0.1774 - acc: 0.9154
+Epoch 926/1000
+ - 76s - loss: 0.1768 - acc: 0.9159
+Epoch 927/1000
+ - 77s - loss: 0.1766 - acc: 0.9158
+Epoch 928/1000
+ - 78s - loss: 0.1765 - acc: 0.9158
+Epoch 929/1000
+ - 78s - loss: 0.1767 - acc: 0.9159
+Epoch 930/1000
+ - 78s - loss: 0.1769 - acc: 0.9157
+Epoch 931/1000
+ - 77s - loss: 0.1773 - acc: 0.9156
+Epoch 932/1000
+ - 77s - loss: 0.1767 - acc: 0.9157
+Epoch 933/1000
+ - 78s - loss: 0.1771 - acc: 0.9156
+Epoch 934/1000
+ - 77s - loss: 0.1768 - acc: 0.9157
+Epoch 935/1000
+ - 77s - loss: 0.1767 - acc: 0.9157
+Epoch 936/1000
+ - 78s - loss: 0.1771 - acc: 0.9158
+Epoch 937/1000
+ - 78s - loss: 0.1767 - acc: 0.9156
+Epoch 938/1000
+ - 77s - loss: 0.1771 - acc: 0.9155
+Epoch 939/1000
+ - 77s - loss: 0.1771 - acc: 0.9156
+Epoch 940/1000
+ - 77s - loss: 0.1767 - acc: 0.9161
+Epoch 941/1000
+ - 78s - loss: 0.1768 - acc: 0.9158
+Epoch 942/1000
+ - 77s - loss: 0.1768 - acc: 0.9156
+Epoch 943/1000
+ - 77s - loss: 0.1771 - acc: 0.9156
+Epoch 944/1000
+ - 78s - loss: 0.1766 - acc: 0.9162
+Epoch 945/1000
+ - 78s - loss: 0.1765 - acc: 0.9159
+Epoch 946/1000
+ - 77s - loss: 0.1768 - acc: 0.9157
+Epoch 947/1000
+ - 77s - loss: 0.1769 - acc: 0.9157
+Epoch 948/1000
+ - 78s - loss: 0.1769 - acc: 0.9156
+Epoch 949/1000
+ - 78s - loss: 0.1769 - acc: 0.9158
+Epoch 950/1000
+ - 77s - loss: 0.1767 - acc: 0.9157
+Epoch 951/1000
+ - 78s - loss: 0.1767 - acc: 0.9158
+Epoch 952/1000
+ - 77s - loss: 0.1765 - acc: 0.9159
+Epoch 953/1000
+ - 77s - loss: 0.1765 - acc: 0.9158
+Epoch 954/1000
+ - 76s - loss: 0.1766 - acc: 0.9160
+Epoch 955/1000
+ - 76s - loss: 0.1767 - acc: 0.9159
+Epoch 956/1000
+ - 76s - loss: 0.1766 - acc: 0.9158
+Epoch 957/1000
+ - 77s - loss: 0.1765 - acc: 0.9157
+Epoch 958/1000
+ - 76s - loss: 0.1767 - acc: 0.9157
+Epoch 959/1000
+ - 76s - loss: 0.1765 - acc: 0.9157
+Epoch 960/1000
+ - 76s - loss: 0.1764 - acc: 0.9160
+Epoch 961/1000
+ - 77s - loss: 0.1765 - acc: 0.9159
+Epoch 962/1000
+ - 76s - loss: 0.1765 - acc: 0.9158
+Epoch 963/1000
+ - 76s - loss: 0.1764 - acc: 0.9158
+Epoch 964/1000
+ - 76s - loss: 0.1765 - acc: 0.9159
+Epoch 965/1000
+ - 77s - loss: 0.1763 - acc: 0.9159
+Epoch 966/1000
+ - 76s - loss: 0.1762 - acc: 0.9159
+Epoch 967/1000
+ - 76s - loss: 0.1770 - acc: 0.9156
+Epoch 968/1000
+ - 76s - loss: 0.1766 - acc: 0.9161
+Epoch 969/1000
+ - 76s - loss: 0.1767 - acc: 0.9156
+Epoch 970/1000
+ - 76s - loss: 0.1765 - acc: 0.9159
+Epoch 971/1000
+ - 76s - loss: 0.1763 - acc: 0.9158
+Epoch 972/1000
+ - 76s - loss: 0.1765 - acc: 0.9159
+Epoch 973/1000
+ - 76s - loss: 0.1770 - acc: 0.9156
+Epoch 974/1000
+ - 76s - loss: 0.1761 - acc: 0.9160
+Epoch 975/1000
+ - 76s - loss: 0.1765 - acc: 0.9159
+Epoch 976/1000
+ - 77s - loss: 0.1765 - acc: 0.9161
+Epoch 977/1000
+ - 77s - loss: 0.1759 - acc: 0.9161
+Epoch 978/1000
+ - 76s - loss: 0.1765 - acc: 0.9158
+Epoch 979/1000
+ - 77s - loss: 0.1764 - acc: 0.9159
+Epoch 980/1000
+ - 77s - loss: 0.1764 - acc: 0.9158
+Epoch 981/1000
+ - 76s - loss: 0.1761 - acc: 0.9160
+Epoch 982/1000
+ - 76s - loss: 0.1766 - acc: 0.9160
+Epoch 983/1000
+ - 76s - loss: 0.1765 - acc: 0.9159
+Epoch 984/1000
+ - 77s - loss: 0.1764 - acc: 0.9158
+Epoch 985/1000
+ - 76s - loss: 0.1769 - acc: 0.9158
+Epoch 986/1000
+ - 76s - loss: 0.1762 - acc: 0.9162
+Epoch 987/1000
+ - 76s - loss: 0.1764 - acc: 0.9162
+Epoch 988/1000
+ - 77s - loss: 0.1762 - acc: 0.9159
+Epoch 989/1000
+ - 76s - loss: 0.1764 - acc: 0.9160
+Epoch 990/1000
+ - 76s - loss: 0.1767 - acc: 0.9159
+Epoch 991/1000
+ - 76s - loss: 0.1765 - acc: 0.9160
+Epoch 992/1000
+ - 77s - loss: 0.1765 - acc: 0.9158
+Epoch 993/1000
+ - 76s - loss: 0.1766 - acc: 0.9157
+Epoch 994/1000
+ - 77s - loss: 0.1763 - acc: 0.9159
+Epoch 995/1000
+ - 77s - loss: 0.1762 - acc: 0.9158
+Epoch 996/1000
+ - 77s - loss: 0.1763 - acc: 0.9158
+Epoch 997/1000
+ - 76s - loss: 0.1762 - acc: 0.9158
+Epoch 998/1000
+ - 77s - loss: 0.1764 - acc: 0.9158
+Epoch 999/1000
+ - 77s - loss: 0.1765 - acc: 0.9159
+Epoch 1000/1000
+ - 77s - loss: 0.1763 - acc: 0.9160
+
+    32/212911 [..............................] - ETA: 10:07
+  1088/212911 [..............................] - ETA: 27s  
+  2144/212911 [..............................] - ETA: 18s
+  3168/212911 [..............................] - ETA: 16s
+  4256/212911 [..............................] - ETA: 14s
+  5376/212911 [..............................] - ETA: 13s
+  6432/212911 [..............................] - ETA: 12s
+  7456/212911 [>.............................] - ETA: 12s
+  8480/212911 [>.............................] - ETA: 12s
+  9600/212911 [>.............................] - ETA: 11s
+ 10624/212911 [>.............................] - ETA: 11s
+ 11680/212911 [>.............................] - ETA: 11s
+ 12704/212911 [>.............................] - ETA: 11s
+ 13792/212911 [>.............................] - ETA: 10s
+ 14848/212911 [=>............................] - ETA: 10s
+ 15840/212911 [=>............................] - ETA: 10s
+ 16896/212911 [=>............................] - ETA: 10s
+ 17920/212911 [=>............................] - ETA: 10s
+ 18976/212911 [=>............................] - ETA: 10s
+ 20000/212911 [=>............................] - ETA: 10s
+ 21056/212911 [=>............................] - ETA: 10s
+ 22048/212911 [==>...........................] - ETA: 10s
+ 23072/212911 [==>...........................] - ETA: 9s 
+ 24032/212911 [==>...........................] - ETA: 9s
+ 25024/212911 [==>...........................] - ETA: 9s
+ 26048/212911 [==>...........................] - ETA: 9s
+ 27008/212911 [==>...........................] - ETA: 9s
+ 28000/212911 [==>...........................] - ETA: 9s
+ 28992/212911 [===>..........................] - ETA: 9s
+ 30048/212911 [===>..........................] - ETA: 9s
+ 31040/212911 [===>..........................] - ETA: 9s
+ 32128/212911 [===>..........................] - ETA: 9s
+ 33184/212911 [===>..........................] - ETA: 9s
+ 34240/212911 [===>..........................] - ETA: 9s
+ 35264/212911 [===>..........................] - ETA: 9s
+ 36320/212911 [====>.........................] - ETA: 9s
+ 37344/212911 [====>.........................] - ETA: 9s
+ 38336/212911 [====>.........................] - ETA: 8s
+ 39328/212911 [====>.........................] - ETA: 8s
+ 40384/212911 [====>.........................] - ETA: 8s
+ 41408/212911 [====>.........................] - ETA: 8s
+ 42496/212911 [====>.........................] - ETA: 8s
+ 43552/212911 [=====>........................] - ETA: 8s
+ 44608/212911 [=====>........................] - ETA: 8s
+ 45696/212911 [=====>........................] - ETA: 8s
+ 46752/212911 [=====>........................] - ETA: 8s
+ 47840/212911 [=====>........................] - ETA: 8s
+ 48864/212911 [=====>........................] - ETA: 8s
+ 49920/212911 [======>.......................] - ETA: 8s
+ 50944/212911 [======>.......................] - ETA: 8s
+ 51968/212911 [======>.......................] - ETA: 8s
+ 53120/212911 [======>.......................] - ETA: 8s
+ 54144/212911 [======>.......................] - ETA: 8s
+ 55200/212911 [======>.......................] - ETA: 7s
+ 56256/212911 [======>.......................] - ETA: 7s
+ 57344/212911 [=======>......................] - ETA: 7s
+ 58272/212911 [=======>......................] - ETA: 7s
+ 59296/212911 [=======>......................] - ETA: 7s
+ 60288/212911 [=======>......................] - ETA: 7s
+ 61280/212911 [=======>......................] - ETA: 7s
+ 62272/212911 [=======>......................] - ETA: 7s
+ 63296/212911 [=======>......................] - ETA: 7s
+ 64288/212911 [========>.....................] - ETA: 7s
+ 65312/212911 [========>.....................] - ETA: 7s
+ 66304/212911 [========>.....................] - ETA: 7s
+ 67296/212911 [========>.....................] - ETA: 7s
+ 68320/212911 [========>.....................] - ETA: 7s
+ 69344/212911 [========>.....................] - ETA: 7s
+ 70368/212911 [========>.....................] - ETA: 7s
+ 71360/212911 [=========>....................] - ETA: 7s
+ 72448/212911 [=========>....................] - ETA: 7s
+ 73568/212911 [=========>....................] - ETA: 7s
+ 74624/212911 [=========>....................] - ETA: 6s
+ 75680/212911 [=========>....................] - ETA: 6s
+ 76768/212911 [=========>....................] - ETA: 6s
+ 77824/212911 [=========>....................] - ETA: 6s
+ 78880/212911 [==========>...................] - ETA: 6s
+ 79904/212911 [==========>...................] - ETA: 6s
+ 80960/212911 [==========>...................] - ETA: 6s
+ 81984/212911 [==========>...................] - ETA: 6s
+ 83072/212911 [==========>...................] - ETA: 6s
+ 84064/212911 [==========>...................] - ETA: 6s
+ 85120/212911 [==========>...................] - ETA: 6s
+ 86112/212911 [===========>..................] - ETA: 6s
+ 87168/212911 [===========>..................] - ETA: 6s
+ 88160/212911 [===========>..................] - ETA: 6s
+ 89248/212911 [===========>..................] - ETA: 6s
+ 90336/212911 [===========>..................] - ETA: 6s
+ 91424/212911 [===========>..................] - ETA: 6s
+ 92480/212911 [============>.................] - ETA: 6s
+ 93568/212911 [============>.................] - ETA: 5s
+ 94624/212911 [============>.................] - ETA: 5s
+ 95744/212911 [============>.................] - ETA: 5s
+ 96832/212911 [============>.................] - ETA: 5s
+ 97856/212911 [============>.................] - ETA: 5s
+ 98912/212911 [============>.................] - ETA: 5s
+ 99968/212911 [=============>................] - ETA: 5s
+101024/212911 [=============>................] - ETA: 5s
+102112/212911 [=============>................] - ETA: 5s
+103168/212911 [=============>................] - ETA: 5s
+104224/212911 [=============>................] - ETA: 5s
+105312/212911 [=============>................] - ETA: 5s
+106368/212911 [=============>................] - ETA: 5s
+107488/212911 [==============>...............] - ETA: 5s
+108576/212911 [==============>...............] - ETA: 5s
+109632/212911 [==============>...............] - ETA: 5s
+110688/212911 [==============>...............] - ETA: 5s
+111776/212911 [==============>...............] - ETA: 5s
+112864/212911 [==============>...............] - ETA: 4s
+113920/212911 [===============>..............] - ETA: 4s
+114976/212911 [===============>..............] - ETA: 4s
+116000/212911 [===============>..............] - ETA: 4s
+117024/212911 [===============>..............] - ETA: 4s
+118048/212911 [===============>..............] - ETA: 4s
+119072/212911 [===============>..............] - ETA: 4s
+120064/212911 [===============>..............] - ETA: 4s
+121152/212911 [================>.............] - ETA: 4s
+122272/212911 [================>.............] - ETA: 4s
+123360/212911 [================>.............] - ETA: 4s
+124448/212911 [================>.............] - ETA: 4s
+125440/212911 [================>.............] - ETA: 4s
+126464/212911 [================>.............] - ETA: 4s
+127648/212911 [================>.............] - ETA: 4s
+128704/212911 [=================>............] - ETA: 4s
+129824/212911 [=================>............] - ETA: 4s
+130880/212911 [=================>............] - ETA: 4s
+131968/212911 [=================>............] - ETA: 3s
+133024/212911 [=================>............] - ETA: 3s
+134080/212911 [=================>............] - ETA: 3s
+135136/212911 [==================>...........] - ETA: 3s
+136192/212911 [==================>...........] - ETA: 3s
+137280/212911 [==================>...........] - ETA: 3s
+138336/212911 [==================>...........] - ETA: 3s
+139392/212911 [==================>...........] - ETA: 3s
+140384/212911 [==================>...........] - ETA: 3s
+141376/212911 [==================>...........] - ETA: 3s
+142336/212911 [===================>..........] - ETA: 3s
+143392/212911 [===================>..........] - ETA: 3s
+144416/212911 [===================>..........] - ETA: 3s
+145408/212911 [===================>..........] - ETA: 3s
+146464/212911 [===================>..........] - ETA: 3s
+147488/212911 [===================>..........] - ETA: 3s
+148512/212911 [===================>..........] - ETA: 3s
+149568/212911 [====================>.........] - ETA: 3s
+150656/212911 [====================>.........] - ETA: 3s
+151712/212911 [====================>.........] - ETA: 3s
+152768/212911 [====================>.........] - ETA: 2s
+153824/212911 [====================>.........] - ETA: 2s
+154848/212911 [====================>.........] - ETA: 2s
+155872/212911 [====================>.........] - ETA: 2s
+156960/212911 [=====================>........] - ETA: 2s
+158080/212911 [=====================>........] - ETA: 2s
+159104/212911 [=====================>........] - ETA: 2s
+160256/212911 [=====================>........] - ETA: 2s
+161280/212911 [=====================>........] - ETA: 2s
+162368/212911 [=====================>........] - ETA: 2s
+163488/212911 [======================>.......] - ETA: 2s
+164512/212911 [======================>.......] - ETA: 2s
+165568/212911 [======================>.......] - ETA: 2s
+166688/212911 [======================>.......] - ETA: 2s
+167840/212911 [======================>.......] - ETA: 2s
+168864/212911 [======================>.......] - ETA: 2s
+169920/212911 [======================>.......] - ETA: 2s
+171040/212911 [=======================>......] - ETA: 2s
+172096/212911 [=======================>......] - ETA: 2s
+173088/212911 [=======================>......] - ETA: 1s
+174176/212911 [=======================>......] - ETA: 1s
+175232/212911 [=======================>......] - ETA: 1s
+176224/212911 [=======================>......] - ETA: 1s
+177280/212911 [=======================>......] - ETA: 1s
+178368/212911 [========================>.....] - ETA: 1s
+179456/212911 [========================>.....] - ETA: 1s
+180512/212911 [========================>.....] - ETA: 1s
+181632/212911 [========================>.....] - ETA: 1s
+182656/212911 [========================>.....] - ETA: 1s
+183712/212911 [========================>.....] - ETA: 1s
+184736/212911 [=========================>....] - ETA: 1s
+185728/212911 [=========================>....] - ETA: 1s
+186752/212911 [=========================>....] - ETA: 1s
+187712/212911 [=========================>....] - ETA: 1s
+188704/212911 [=========================>....] - ETA: 1s
+189728/212911 [=========================>....] - ETA: 1s
+190688/212911 [=========================>....] - ETA: 1s
+191648/212911 [==========================>...] - ETA: 1s
+192640/212911 [==========================>...] - ETA: 0s
+193632/212911 [==========================>...] - ETA: 0s
+194624/212911 [==========================>...] - ETA: 0s
+195712/212911 [==========================>...] - ETA: 0s
+196736/212911 [==========================>...] - ETA: 0s
+197760/212911 [==========================>...] - ETA: 0s
+198752/212911 [===========================>..] - ETA: 0s
+199744/212911 [===========================>..] - ETA: 0s
+200768/212911 [===========================>..] - ETA: 0s
+201824/212911 [===========================>..] - ETA: 0s
+202944/212911 [===========================>..] - ETA: 0s
+203968/212911 [===========================>..] - ETA: 0s
+205056/212911 [===========================>..] - ETA: 0s
+206112/212911 [============================>.] - ETA: 0s
+207232/212911 [============================>.] - ETA: 0s
+208288/212911 [============================>.] - ETA: 0s
+209312/212911 [============================>.] - ETA: 0s
+210368/212911 [============================>.] - ETA: 0s
+211456/212911 [============================>.] - ETA: 0s
+212544/212911 [============================>.] - ETA: 0s
+212911/212911 [==============================] - 10s 49us/step
+Loss = 0.2712400551629054
+Test Accuracy = 0.8871782106141045
+
+    32/638730 [..............................] - ETA: 2:22
+  1152/638730 [..............................] - ETA: 31s 
+  2208/638730 [..............................] - ETA: 31s
+  3296/638730 [..............................] - ETA: 30s
+  4352/638730 [..............................] - ETA: 30s
+  5440/638730 [..............................] - ETA: 30s
+  6592/638730 [..............................] - ETA: 30s
+  7680/638730 [..............................] - ETA: 30s
+  8704/638730 [..............................] - ETA: 30s
+  9760/638730 [..............................] - ETA: 30s
+ 10848/638730 [..............................] - ETA: 29s
+ 11904/638730 [..............................] - ETA: 29s
+ 12864/638730 [..............................] - ETA: 30s
+ 13856/638730 [..............................] - ETA: 30s
+ 14848/638730 [..............................] - ETA: 30s
+ 15840/638730 [..............................] - ETA: 30s
+ 16928/638730 [..............................] - ETA: 30s
+ 18016/638730 [..............................] - ETA: 30s
+ 19072/638730 [..............................] - ETA: 30s
+ 20128/638730 [..............................] - ETA: 30s
+ 21216/638730 [..............................] - ETA: 29s
+ 22336/638730 [>.............................] - ETA: 29s
+ 23488/638730 [>.............................] - ETA: 29s
+ 24544/638730 [>.............................] - ETA: 29s
+ 25600/638730 [>.............................] - ETA: 29s
+ 26688/638730 [>.............................] - ETA: 29s
+ 27776/638730 [>.............................] - ETA: 29s
+ 28864/638730 [>.............................] - ETA: 29s
+ 29952/638730 [>.............................] - ETA: 29s
+ 31008/638730 [>.............................] - ETA: 29s
+ 32096/638730 [>.............................] - ETA: 29s
+ 33088/638730 [>.............................] - ETA: 29s
+ 34176/638730 [>.............................] - ETA: 28s
+ 35232/638730 [>.............................] - ETA: 28s
+ 36320/638730 [>.............................] - ETA: 28s
+ 37408/638730 [>.............................] - ETA: 28s
+ 38496/638730 [>.............................] - ETA: 28s
+ 39520/638730 [>.............................] - ETA: 28s
+ 40672/638730 [>.............................] - ETA: 28s
+ 41728/638730 [>.............................] - ETA: 28s
+ 42784/638730 [=>............................] - ETA: 28s
+ 43872/638730 [=>............................] - ETA: 28s
+ 44928/638730 [=>............................] - ETA: 28s
+ 46016/638730 [=>............................] - ETA: 28s
+ 47072/638730 [=>............................] - ETA: 28s
+ 48096/638730 [=>............................] - ETA: 28s
+ 49120/638730 [=>............................] - ETA: 28s
+ 50176/638730 [=>............................] - ETA: 28s
+ 51264/638730 [=>............................] - ETA: 28s
+ 52288/638730 [=>............................] - ETA: 28s
+ 53312/638730 [=>............................] - ETA: 27s
+ 54400/638730 [=>............................] - ETA: 27s
+ 55424/638730 [=>............................] - ETA: 27s
+ 56448/638730 [=>............................] - ETA: 27s
+ 57472/638730 [=>............................] - ETA: 27s
+ 58592/638730 [=>............................] - ETA: 27s
+ 59616/638730 [=>............................] - ETA: 27s
+ 60672/638730 [=>............................] - ETA: 27s
+ 61728/638730 [=>............................] - ETA: 27s
+ 62752/638730 [=>............................] - ETA: 27s
+ 63840/638730 [=>............................] - ETA: 27s
+ 64960/638730 [==>...........................] - ETA: 27s
+ 65984/638730 [==>...........................] - ETA: 27s
+ 67008/638730 [==>...........................] - ETA: 27s
+ 68032/638730 [==>...........................] - ETA: 27s
+ 69120/638730 [==>...........................] - ETA: 27s
+ 70208/638730 [==>...........................] - ETA: 27s
+ 71200/638730 [==>...........................] - ETA: 27s
+ 72288/638730 [==>...........................] - ETA: 27s
+ 73344/638730 [==>...........................] - ETA: 27s
+ 74368/638730 [==>...........................] - ETA: 27s
+ 75424/638730 [==>...........................] - ETA: 26s
+ 76480/638730 [==>...........................] - ETA: 26s
+ 77504/638730 [==>...........................] - ETA: 26s
+ 78592/638730 [==>...........................] - ETA: 26s
+ 79616/638730 [==>...........................] - ETA: 26s
+ 80672/638730 [==>...........................] - ETA: 26s
+ 81664/638730 [==>...........................] - ETA: 26s
+ 82656/638730 [==>...........................] - ETA: 26s
+ 83680/638730 [==>...........................] - ETA: 26s
+ 84832/638730 [==>...........................] - ETA: 26s
+ 85888/638730 [===>..........................] - ETA: 26s
+ 87008/638730 [===>..........................] - ETA: 26s
+ 88064/638730 [===>..........................] - ETA: 26s
+ 89120/638730 [===>..........................] - ETA: 26s
+ 90176/638730 [===>..........................] - ETA: 26s
+ 91264/638730 [===>..........................] - ETA: 26s
+ 92352/638730 [===>..........................] - ETA: 26s
+ 93440/638730 [===>..........................] - ETA: 26s
+ 94464/638730 [===>..........................] - ETA: 26s
+ 95552/638730 [===>..........................] - ETA: 26s
+ 96640/638730 [===>..........................] - ETA: 25s
+ 97696/638730 [===>..........................] - ETA: 25s
+ 98784/638730 [===>..........................] - ETA: 25s
+ 99776/638730 [===>..........................] - ETA: 25s
+100832/638730 [===>..........................] - ETA: 25s
+101824/638730 [===>..........................] - ETA: 25s
+102816/638730 [===>..........................] - ETA: 25s
+103840/638730 [===>..........................] - ETA: 25s
+104896/638730 [===>..........................] - ETA: 25s
+105984/638730 [===>..........................] - ETA: 25s
+107008/638730 [====>.........................] - ETA: 25s
+108032/638730 [====>.........................] - ETA: 25s
+109088/638730 [====>.........................] - ETA: 25s
+110144/638730 [====>.........................] - ETA: 25s
+111168/638730 [====>.........................] - ETA: 25s
+112224/638730 [====>.........................] - ETA: 25s
+113312/638730 [====>.........................] - ETA: 25s
+114368/638730 [====>.........................] - ETA: 25s
+115392/638730 [====>.........................] - ETA: 25s
+116480/638730 [====>.........................] - ETA: 25s
+117472/638730 [====>.........................] - ETA: 25s
+118496/638730 [====>.........................] - ETA: 25s
+119488/638730 [====>.........................] - ETA: 24s
+120512/638730 [====>.........................] - ETA: 24s
+121536/638730 [====>.........................] - ETA: 24s
+122592/638730 [====>.........................] - ETA: 24s
+123616/638730 [====>.........................] - ETA: 24s
+124704/638730 [====>.........................] - ETA: 24s
+125792/638730 [====>.........................] - ETA: 24s
+126880/638730 [====>.........................] - ETA: 24s
+127904/638730 [=====>........................] - ETA: 24s
+128992/638730 [=====>........................] - ETA: 24s
+130080/638730 [=====>........................] - ETA: 24s
+131136/638730 [=====>........................] - ETA: 24s
+132192/638730 [=====>........................] - ETA: 24s
+133216/638730 [=====>........................] - ETA: 24s
+134272/638730 [=====>........................] - ETA: 24s
+135360/638730 [=====>........................] - ETA: 24s
+136416/638730 [=====>........................] - ETA: 24s
+137536/638730 [=====>........................] - ETA: 24s
+138624/638730 [=====>........................] - ETA: 24s
+139680/638730 [=====>........................] - ETA: 23s
+140736/638730 [=====>........................] - ETA: 23s
+141856/638730 [=====>........................] - ETA: 23s
+142880/638730 [=====>........................] - ETA: 23s
+143904/638730 [=====>........................] - ETA: 23s
+144992/638730 [=====>........................] - ETA: 23s
+146016/638730 [=====>........................] - ETA: 23s
+146976/638730 [=====>........................] - ETA: 23s
+147968/638730 [=====>........................] - ETA: 23s
+148960/638730 [=====>........................] - ETA: 23s
+149984/638730 [======>.......................] - ETA: 23s
+151008/638730 [======>.......................] - ETA: 23s
+152064/638730 [======>.......................] - ETA: 23s
+153120/638730 [======>.......................] - ETA: 23s
+154144/638730 [======>.......................] - ETA: 23s
+155232/638730 [======>.......................] - ETA: 23s
+156256/638730 [======>.......................] - ETA: 23s
+157312/638730 [======>.......................] - ETA: 23s
+158336/638730 [======>.......................] - ETA: 23s
+159328/638730 [======>.......................] - ETA: 23s
+160384/638730 [======>.......................] - ETA: 23s
+161504/638730 [======>.......................] - ETA: 22s
+162560/638730 [======>.......................] - ETA: 22s
+163680/638730 [======>.......................] - ETA: 22s
+164768/638730 [======>.......................] - ETA: 22s
+165856/638730 [======>.......................] - ETA: 22s
+166912/638730 [======>.......................] - ETA: 22s
+168000/638730 [======>.......................] - ETA: 22s
+169024/638730 [======>.......................] - ETA: 22s
+170112/638730 [======>.......................] - ETA: 22s
+171232/638730 [=======>......................] - ETA: 22s
+172256/638730 [=======>......................] - ETA: 22s
+173344/638730 [=======>......................] - ETA: 22s
+174464/638730 [=======>......................] - ETA: 22s
+175552/638730 [=======>......................] - ETA: 22s
+176576/638730 [=======>......................] - ETA: 22s
+177600/638730 [=======>......................] - ETA: 22s
+178656/638730 [=======>......................] - ETA: 22s
+179712/638730 [=======>......................] - ETA: 22s
+180768/638730 [=======>......................] - ETA: 22s
+181792/638730 [=======>......................] - ETA: 21s
+182784/638730 [=======>......................] - ETA: 21s
+183776/638730 [=======>......................] - ETA: 21s
+184800/638730 [=======>......................] - ETA: 21s
+185824/638730 [=======>......................] - ETA: 21s
+186816/638730 [=======>......................] - ETA: 21s
+187808/638730 [=======>......................] - ETA: 21s
+188832/638730 [=======>......................] - ETA: 21s
+189856/638730 [=======>......................] - ETA: 21s
+190848/638730 [=======>......................] - ETA: 21s
+191840/638730 [========>.....................] - ETA: 21s
+192896/638730 [========>.....................] - ETA: 21s
+193984/638730 [========>.....................] - ETA: 21s
+195072/638730 [========>.....................] - ETA: 21s
+196064/638730 [========>.....................] - ETA: 21s
+197152/638730 [========>.....................] - ETA: 21s
+198240/638730 [========>.....................] - ETA: 21s
+199296/638730 [========>.....................] - ETA: 21s
+200320/638730 [========>.....................] - ETA: 21s
+201344/638730 [========>.....................] - ETA: 21s
+202368/638730 [========>.....................] - ETA: 21s
+203392/638730 [========>.....................] - ETA: 21s
+204480/638730 [========>.....................] - ETA: 20s
+205600/638730 [========>.....................] - ETA: 20s
+206624/638730 [========>.....................] - ETA: 20s
+207712/638730 [========>.....................] - ETA: 20s
+208768/638730 [========>.....................] - ETA: 20s
+209888/638730 [========>.....................] - ETA: 20s
+210912/638730 [========>.....................] - ETA: 20s
+212000/638730 [========>.....................] - ETA: 20s
+213056/638730 [=========>....................] - ETA: 20s
+214176/638730 [=========>....................] - ETA: 20s
+215264/638730 [=========>....................] - ETA: 20s
+216352/638730 [=========>....................] - ETA: 20s
+217472/638730 [=========>....................] - ETA: 20s
+218528/638730 [=========>....................] - ETA: 20s
+219584/638730 [=========>....................] - ETA: 20s
+220640/638730 [=========>....................] - ETA: 20s
+221696/638730 [=========>....................] - ETA: 20s
+222752/638730 [=========>....................] - ETA: 20s
+223808/638730 [=========>....................] - ETA: 19s
+224864/638730 [=========>....................] - ETA: 19s
+225888/638730 [=========>....................] - ETA: 19s
+226976/638730 [=========>....................] - ETA: 19s
+228064/638730 [=========>....................] - ETA: 19s
+229088/638730 [=========>....................] - ETA: 19s
+230144/638730 [=========>....................] - ETA: 19s
+231200/638730 [=========>....................] - ETA: 19s
+232224/638730 [=========>....................] - ETA: 19s
+233312/638730 [=========>....................] - ETA: 19s
+234368/638730 [==========>...................] - ETA: 19s
+235392/638730 [==========>...................] - ETA: 19s
+236416/638730 [==========>...................] - ETA: 19s
+237376/638730 [==========>...................] - ETA: 19s
+238368/638730 [==========>...................] - ETA: 19s
+239360/638730 [==========>...................] - ETA: 19s
+240384/638730 [==========>...................] - ETA: 19s
+241376/638730 [==========>...................] - ETA: 19s
+242336/638730 [==========>...................] - ETA: 19s
+243328/638730 [==========>...................] - ETA: 19s
+244448/638730 [==========>...................] - ETA: 19s
+245440/638730 [==========>...................] - ETA: 18s
+246464/638730 [==========>...................] - ETA: 18s
+247488/638730 [==========>...................] - ETA: 18s
+248512/638730 [==========>...................] - ETA: 18s
+249504/638730 [==========>...................] - ETA: 18s
+250528/638730 [==========>...................] - ETA: 18s
+251520/638730 [==========>...................] - ETA: 18s
+252576/638730 [==========>...................] - ETA: 18s
+253568/638730 [==========>...................] - ETA: 18s
+254656/638730 [==========>...................] - ETA: 18s
+255744/638730 [===========>..................] - ETA: 18s
+256704/638730 [===========>..................] - ETA: 18s
+257760/638730 [===========>..................] - ETA: 18s
+258848/638730 [===========>..................] - ETA: 18s
+259904/638730 [===========>..................] - ETA: 18s
+260960/638730 [===========>..................] - ETA: 18s
+262080/638730 [===========>..................] - ETA: 18s
+263104/638730 [===========>..................] - ETA: 18s
+264192/638730 [===========>..................] - ETA: 18s
+265312/638730 [===========>..................] - ETA: 18s
+266400/638730 [===========>..................] - ETA: 17s
+267456/638730 [===========>..................] - ETA: 17s
+268480/638730 [===========>..................] - ETA: 17s
+269472/638730 [===========>..................] - ETA: 17s
+270464/638730 [===========>..................] - ETA: 17s
+271424/638730 [===========>..................] - ETA: 17s
+272384/638730 [===========>..................] - ETA: 17s
+273376/638730 [===========>..................] - ETA: 17s
+274400/638730 [===========>..................] - ETA: 17s
+275456/638730 [===========>..................] - ETA: 17s
+276416/638730 [===========>..................] - ETA: 17s
+277408/638730 [============>.................] - ETA: 17s
+278432/638730 [============>.................] - ETA: 17s
+279456/638730 [============>.................] - ETA: 17s
+280480/638730 [============>.................] - ETA: 17s
+281504/638730 [============>.................] - ETA: 17s
+282496/638730 [============>.................] - ETA: 17s
+283488/638730 [============>.................] - ETA: 17s
+284512/638730 [============>.................] - ETA: 17s
+285472/638730 [============>.................] - ETA: 17s
+286464/638730 [============>.................] - ETA: 17s
+287456/638730 [============>.................] - ETA: 17s
+288416/638730 [============>.................] - ETA: 16s
+289408/638730 [============>.................] - ETA: 16s
+290368/638730 [============>.................] - ETA: 16s
+291392/638730 [============>.................] - ETA: 16s
+292352/638730 [============>.................] - ETA: 16s
+293376/638730 [============>.................] - ETA: 16s
+294400/638730 [============>.................] - ETA: 16s
+295488/638730 [============>.................] - ETA: 16s
+296544/638730 [============>.................] - ETA: 16s
+297568/638730 [============>.................] - ETA: 16s
+298688/638730 [=============>................] - ETA: 16s
+299776/638730 [=============>................] - ETA: 16s
+300832/638730 [=============>................] - ETA: 16s
+301888/638730 [=============>................] - ETA: 16s
+302912/638730 [=============>................] - ETA: 16s
+304000/638730 [=============>................] - ETA: 16s
+305056/638730 [=============>................] - ETA: 16s
+306080/638730 [=============>................] - ETA: 16s
+307136/638730 [=============>................] - ETA: 16s
+308160/638730 [=============>................] - ETA: 16s
+309184/638730 [=============>................] - ETA: 15s
+310240/638730 [=============>................] - ETA: 15s
+311264/638730 [=============>................] - ETA: 15s
+312256/638730 [=============>................] - ETA: 15s
+313248/638730 [=============>................] - ETA: 15s
+314272/638730 [=============>................] - ETA: 15s
+315264/638730 [=============>................] - ETA: 15s
+316288/638730 [=============>................] - ETA: 15s
+317312/638730 [=============>................] - ETA: 15s
+318336/638730 [=============>................] - ETA: 15s
+319392/638730 [==============>...............] - ETA: 15s
+320448/638730 [==============>...............] - ETA: 15s
+321504/638730 [==============>...............] - ETA: 15s
+322560/638730 [==============>...............] - ETA: 15s
+323552/638730 [==============>...............] - ETA: 15s
+324672/638730 [==============>...............] - ETA: 15s
+325728/638730 [==============>...............] - ETA: 15s
+326784/638730 [==============>...............] - ETA: 15s
+327808/638730 [==============>...............] - ETA: 15s
+328896/638730 [==============>...............] - ETA: 15s
+329920/638730 [==============>...............] - ETA: 14s
+330976/638730 [==============>...............] - ETA: 14s
+332000/638730 [==============>...............] - ETA: 14s
+333056/638730 [==============>...............] - ETA: 14s
+334048/638730 [==============>...............] - ETA: 14s
+335072/638730 [==============>...............] - ETA: 14s
+336128/638730 [==============>...............] - ETA: 14s
+337216/638730 [==============>...............] - ETA: 14s
+338304/638730 [==============>...............] - ETA: 14s
+339360/638730 [==============>...............] - ETA: 14s
+340480/638730 [==============>...............] - ETA: 14s
+341536/638730 [===============>..............] - ETA: 14s
+342560/638730 [===============>..............] - ETA: 14s
+343584/638730 [===============>..............] - ETA: 14s
+344544/638730 [===============>..............] - ETA: 14s
+345600/638730 [===============>..............] - ETA: 14s
+346656/638730 [===============>..............] - ETA: 14s
+347744/638730 [===============>..............] - ETA: 14s
+348736/638730 [===============>..............] - ETA: 14s
+349856/638730 [===============>..............] - ETA: 14s
+350944/638730 [===============>..............] - ETA: 13s
+352000/638730 [===============>..............] - ETA: 13s
+353056/638730 [===============>..............] - ETA: 13s
+354112/638730 [===============>..............] - ETA: 13s
+355136/638730 [===============>..............] - ETA: 13s
+356192/638730 [===============>..............] - ETA: 13s
+357280/638730 [===============>..............] - ETA: 13s
+358336/638730 [===============>..............] - ETA: 13s
+359424/638730 [===============>..............] - ETA: 13s
+360512/638730 [===============>..............] - ETA: 13s
+361568/638730 [===============>..............] - ETA: 13s
+362624/638730 [================>.............] - ETA: 13s
+363648/638730 [================>.............] - ETA: 13s
+364704/638730 [================>.............] - ETA: 13s
+365760/638730 [================>.............] - ETA: 13s
+366752/638730 [================>.............] - ETA: 13s
+367904/638730 [================>.............] - ETA: 13s
+368928/638730 [================>.............] - ETA: 13s
+369952/638730 [================>.............] - ETA: 13s
+371008/638730 [================>.............] - ETA: 12s
+372064/638730 [================>.............] - ETA: 12s
+373120/638730 [================>.............] - ETA: 12s
+374144/638730 [================>.............] - ETA: 12s
+375200/638730 [================>.............] - ETA: 12s
+376224/638730 [================>.............] - ETA: 12s
+377312/638730 [================>.............] - ETA: 12s
+378304/638730 [================>.............] - ETA: 12s
+379360/638730 [================>.............] - ETA: 12s
+380384/638730 [================>.............] - ETA: 12s
+381440/638730 [================>.............] - ETA: 12s
+382496/638730 [================>.............] - ETA: 12s
+383488/638730 [=================>............] - ETA: 12s
+384448/638730 [=================>............] - ETA: 12s
+385472/638730 [=================>............] - ETA: 12s
+386432/638730 [=================>............] - ETA: 12s
+387488/638730 [=================>............] - ETA: 12s
+388480/638730 [=================>............] - ETA: 12s
+389536/638730 [=================>............] - ETA: 12s
+390592/638730 [=================>............] - ETA: 12s
+391616/638730 [=================>............] - ETA: 11s
+392640/638730 [=================>............] - ETA: 11s
+393664/638730 [=================>............] - ETA: 11s
+394656/638730 [=================>............] - ETA: 11s
+395648/638730 [=================>............] - ETA: 11s
+396608/638730 [=================>............] - ETA: 11s
+397632/638730 [=================>............] - ETA: 11s
+398720/638730 [=================>............] - ETA: 11s
+399744/638730 [=================>............] - ETA: 11s
+400768/638730 [=================>............] - ETA: 11s
+401760/638730 [=================>............] - ETA: 11s
+402752/638730 [=================>............] - ETA: 11s
+403776/638730 [=================>............] - ETA: 11s
+404800/638730 [==================>...........] - ETA: 11s
+405824/638730 [==================>...........] - ETA: 11s
+406848/638730 [==================>...........] - ETA: 11s
+407840/638730 [==================>...........] - ETA: 11s
+408832/638730 [==================>...........] - ETA: 11s
+409888/638730 [==================>...........] - ETA: 11s
+410976/638730 [==================>...........] - ETA: 11s
+412032/638730 [==================>...........] - ETA: 11s
+413120/638730 [==================>...........] - ETA: 10s
+414208/638730 [==================>...........] - ETA: 10s
+415264/638730 [==================>...........] - ETA: 10s
+416320/638730 [==================>...........] - ETA: 10s
+417376/638730 [==================>...........] - ETA: 10s
+418400/638730 [==================>...........] - ETA: 10s
+419424/638730 [==================>...........] - ETA: 10s
+420448/638730 [==================>...........] - ETA: 10s
+421568/638730 [==================>...........] - ETA: 10s
+422592/638730 [==================>...........] - ETA: 10s
+423616/638730 [==================>...........] - ETA: 10s
+424672/638730 [==================>...........] - ETA: 10s
+425696/638730 [==================>...........] - ETA: 10s
+426688/638730 [===================>..........] - ETA: 10s
+427776/638730 [===================>..........] - ETA: 10s
+428832/638730 [===================>..........] - ETA: 10s
+429856/638730 [===================>..........] - ETA: 10s
+430880/638730 [===================>..........] - ETA: 10s
+431968/638730 [===================>..........] - ETA: 10s
+433024/638730 [===================>..........] - ETA: 9s 
+434144/638730 [===================>..........] - ETA: 9s
+435200/638730 [===================>..........] - ETA: 9s
+436256/638730 [===================>..........] - ETA: 9s
+437280/638730 [===================>..........] - ETA: 9s
+438368/638730 [===================>..........] - ETA: 9s
+439424/638730 [===================>..........] - ETA: 9s
+440512/638730 [===================>..........] - ETA: 9s
+441600/638730 [===================>..........] - ETA: 9s
+442592/638730 [===================>..........] - ETA: 9s
+443648/638730 [===================>..........] - ETA: 9s
+444736/638730 [===================>..........] - ETA: 9s
+445760/638730 [===================>..........] - ETA: 9s
+446720/638730 [===================>..........] - ETA: 9s
+447712/638730 [====================>.........] - ETA: 9s
+448704/638730 [====================>.........] - ETA: 9s
+449664/638730 [====================>.........] - ETA: 9s
+450656/638730 [====================>.........] - ETA: 9s
+451616/638730 [====================>.........] - ETA: 9s
+452608/638730 [====================>.........] - ETA: 9s
+453600/638730 [====================>.........] - ETA: 8s
+454592/638730 [====================>.........] - ETA: 8s
+455616/638730 [====================>.........] - ETA: 8s
+456672/638730 [====================>.........] - ETA: 8s
+457760/638730 [====================>.........] - ETA: 8s
+458912/638730 [====================>.........] - ETA: 8s
+460000/638730 [====================>.........] - ETA: 8s
+461024/638730 [====================>.........] - ETA: 8s
+462080/638730 [====================>.........] - ETA: 8s
+463104/638730 [====================>.........] - ETA: 8s
+464192/638730 [====================>.........] - ETA: 8s
+465248/638730 [====================>.........] - ETA: 8s
+466304/638730 [====================>.........] - ETA: 8s
+467328/638730 [====================>.........] - ETA: 8s
+468384/638730 [====================>.........] - ETA: 8s
+469440/638730 [=====================>........] - ETA: 8s
+470464/638730 [=====================>........] - ETA: 8s
+471520/638730 [=====================>........] - ETA: 8s
+472576/638730 [=====================>........] - ETA: 8s
+473632/638730 [=====================>........] - ETA: 8s
+474720/638730 [=====================>........] - ETA: 7s
+475712/638730 [=====================>........] - ETA: 7s
+476832/638730 [=====================>........] - ETA: 7s
+477824/638730 [=====================>........] - ETA: 7s
+478880/638730 [=====================>........] - ETA: 7s
+479904/638730 [=====================>........] - ETA: 7s
+480928/638730 [=====================>........] - ETA: 7s
+481984/638730 [=====================>........] - ETA: 7s
+483008/638730 [=====================>........] - ETA: 7s
+484064/638730 [=====================>........] - ETA: 7s
+485248/638730 [=====================>........] - ETA: 7s
+486272/638730 [=====================>........] - ETA: 7s
+487392/638730 [=====================>........] - ETA: 7s
+488416/638730 [=====================>........] - ETA: 7s
+489504/638730 [=====================>........] - ETA: 7s
+490560/638730 [======================>.......] - ETA: 7s
+491648/638730 [======================>.......] - ETA: 7s
+492672/638730 [======================>.......] - ETA: 7s
+493760/638730 [======================>.......] - ETA: 7s
+494816/638730 [======================>.......] - ETA: 6s
+495904/638730 [======================>.......] - ETA: 6s
+496960/638730 [======================>.......] - ETA: 6s
+497952/638730 [======================>.......] - ETA: 6s
+498976/638730 [======================>.......] - ETA: 6s
+500064/638730 [======================>.......] - ETA: 6s
+501088/638730 [======================>.......] - ETA: 6s
+502144/638730 [======================>.......] - ETA: 6s
+503200/638730 [======================>.......] - ETA: 6s
+504256/638730 [======================>.......] - ETA: 6s
+505344/638730 [======================>.......] - ETA: 6s
+506432/638730 [======================>.......] - ETA: 6s
+507520/638730 [======================>.......] - ETA: 6s
+508640/638730 [======================>.......] - ETA: 6s
+509696/638730 [======================>.......] - ETA: 6s
+510784/638730 [======================>.......] - ETA: 6s
+511808/638730 [=======================>......] - ETA: 6s
+512864/638730 [=======================>......] - ETA: 6s
+513920/638730 [=======================>......] - ETA: 6s
+514944/638730 [=======================>......] - ETA: 6s
+516064/638730 [=======================>......] - ETA: 5s
+517120/638730 [=======================>......] - ETA: 5s
+518144/638730 [=======================>......] - ETA: 5s
+519136/638730 [=======================>......] - ETA: 5s
+520160/638730 [=======================>......] - ETA: 5s
+521120/638730 [=======================>......] - ETA: 5s
+522240/638730 [=======================>......] - ETA: 5s
+523296/638730 [=======================>......] - ETA: 5s
+524352/638730 [=======================>......] - ETA: 5s
+525344/638730 [=======================>......] - ETA: 5s
+526496/638730 [=======================>......] - ETA: 5s
+527456/638730 [=======================>......] - ETA: 5s
+528416/638730 [=======================>......] - ETA: 5s
+529472/638730 [=======================>......] - ETA: 5s
+530560/638730 [=======================>......] - ETA: 5s
+531648/638730 [=======================>......] - ETA: 5s
+532736/638730 [========================>.....] - ETA: 5s
+533760/638730 [========================>.....] - ETA: 5s
+534848/638730 [========================>.....] - ETA: 5s
+535936/638730 [========================>.....] - ETA: 4s
+536992/638730 [========================>.....] - ETA: 4s
+538016/638730 [========================>.....] - ETA: 4s
+539040/638730 [========================>.....] - ETA: 4s
+540096/638730 [========================>.....] - ETA: 4s
+541152/638730 [========================>.....] - ETA: 4s
+542176/638730 [========================>.....] - ETA: 4s
+543232/638730 [========================>.....] - ETA: 4s
+544320/638730 [========================>.....] - ETA: 4s
+545408/638730 [========================>.....] - ETA: 4s
+546464/638730 [========================>.....] - ETA: 4s
+547552/638730 [========================>.....] - ETA: 4s
+548608/638730 [========================>.....] - ETA: 4s
+549664/638730 [========================>.....] - ETA: 4s
+550752/638730 [========================>.....] - ETA: 4s
+551808/638730 [========================>.....] - ETA: 4s
+552896/638730 [========================>.....] - ETA: 4s
+554016/638730 [=========================>....] - ETA: 4s
+555072/638730 [=========================>....] - ETA: 4s
+556096/638730 [=========================>....] - ETA: 4s
+557248/638730 [=========================>....] - ETA: 3s
+558304/638730 [=========================>....] - ETA: 3s
+559328/638730 [=========================>....] - ETA: 3s
+560384/638730 [=========================>....] - ETA: 3s
+561440/638730 [=========================>....] - ETA: 3s
+562464/638730 [=========================>....] - ETA: 3s
+563520/638730 [=========================>....] - ETA: 3s
+564576/638730 [=========================>....] - ETA: 3s
+565600/638730 [=========================>....] - ETA: 3s
+566656/638730 [=========================>....] - ETA: 3s
+567680/638730 [=========================>....] - ETA: 3s
+568736/638730 [=========================>....] - ETA: 3s
+569760/638730 [=========================>....] - ETA: 3s
+570752/638730 [=========================>....] - ETA: 3s
+571776/638730 [=========================>....] - ETA: 3s
+572832/638730 [=========================>....] - ETA: 3s
+573824/638730 [=========================>....] - ETA: 3s
+574848/638730 [=========================>....] - ETA: 3s
+575840/638730 [==========================>...] - ETA: 3s
+576864/638730 [==========================>...] - ETA: 3s
+577856/638730 [==========================>...] - ETA: 2s
+578816/638730 [==========================>...] - ETA: 2s
+579808/638730 [==========================>...] - ETA: 2s
+580800/638730 [==========================>...] - ETA: 2s
+581792/638730 [==========================>...] - ETA: 2s
+582752/638730 [==========================>...] - ETA: 2s
+583808/638730 [==========================>...] - ETA: 2s
+584864/638730 [==========================>...] - ETA: 2s
+585888/638730 [==========================>...] - ETA: 2s
+586944/638730 [==========================>...] - ETA: 2s
+588032/638730 [==========================>...] - ETA: 2s
+589056/638730 [==========================>...] - ETA: 2s
+590144/638730 [==========================>...] - ETA: 2s
+591168/638730 [==========================>...] - ETA: 2s
+592192/638730 [==========================>...] - ETA: 2s
+593248/638730 [==========================>...] - ETA: 2s
+594272/638730 [==========================>...] - ETA: 2s
+595328/638730 [==========================>...] - ETA: 2s
+596352/638730 [===========================>..] - ETA: 2s
+597408/638730 [===========================>..] - ETA: 2s
+598432/638730 [===========================>..] - ETA: 1s
+599584/638730 [===========================>..] - ETA: 1s
+600640/638730 [===========================>..] - ETA: 1s
+601664/638730 [===========================>..] - ETA: 1s
+602688/638730 [===========================>..] - ETA: 1s
+603712/638730 [===========================>..] - ETA: 1s
+604800/638730 [===========================>..] - ETA: 1s
+605760/638730 [===========================>..] - ETA: 1s
+606848/638730 [===========================>..] - ETA: 1s
+607904/638730 [===========================>..] - ETA: 1s
+608960/638730 [===========================>..] - ETA: 1s
+610016/638730 [===========================>..] - ETA: 1s
+611008/638730 [===========================>..] - ETA: 1s
+612128/638730 [===========================>..] - ETA: 1s
+613184/638730 [===========================>..] - ETA: 1s
+614208/638730 [===========================>..] - ETA: 1s
+615200/638730 [===========================>..] - ETA: 1s
+616288/638730 [===========================>..] - ETA: 1s
+617312/638730 [===========================>..] - ETA: 1s
+618368/638730 [============================>.] - ETA: 0s
+619488/638730 [============================>.] - ETA: 0s
+620576/638730 [============================>.] - ETA: 0s
+621632/638730 [============================>.] - ETA: 0s
+622688/638730 [============================>.] - ETA: 0s
+623712/638730 [============================>.] - ETA: 0s
+624800/638730 [============================>.] - ETA: 0s
+625856/638730 [============================>.] - ETA: 0s
+626944/638730 [============================>.] - ETA: 0s
+627968/638730 [============================>.] - ETA: 0s
+629024/638730 [============================>.] - ETA: 0s
+630048/638730 [============================>.] - ETA: 0s
+631072/638730 [============================>.] - ETA: 0s
+632096/638730 [============================>.] - ETA: 0s
+633088/638730 [============================>.] - ETA: 0s
+634080/638730 [============================>.] - ETA: 0s
+635072/638730 [============================>.] - ETA: 0s
+636064/638730 [============================>.] - ETA: 0s
+637024/638730 [============================>.] - ETA: 0s
+638016/638730 [============================>.] - ETA: 0s
+638730/638730 [==============================] - 31s 49us/step
+/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/matplotlib/__init__.py:1067: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #2
+  (fname, cnt))
+/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/matplotlib/__init__.py:1067: UserWarning: Duplicate key in file "/home/ubuntu/.config/matplotlib/matplotlibrc", line #3
+  (fname, cnt))
+/home/ubuntu/anaconda3/envs/tensorflow_p36/lib/python3.6/site-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
+  from ._conv import register_converters as _register_converters
+Using TensorFlow backend.
+Loss = 0.17272568001290792
+Train Accuracy = 0.917785292690182

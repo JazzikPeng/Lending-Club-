@@ -1,0 +1,393 @@
+2018-04-23 17:45:50.884973: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX512F
+OMP: Warning #181: OMP_PROC_BIND: ignored because KMP_AFFINITY has been defined
+
+User settings:
+
+   KMP_AFFINITY=granularity=fine,compact,1,0
+   KMP_BLOCKTIME=1
+   KMP_SETTINGS=1
+   OMP_NUM_THREADS=4
+   OMP_PROC_BIND=true
+
+Effective settings:
+
+   KMP_ABORT_DELAY=0
+   KMP_ADAPTIVE_LOCK_PROPS='1,1024'
+   KMP_ALIGN_ALLOC=64
+   KMP_ALL_THREADPRIVATE=128
+   KMP_ATOMIC_MODE=2
+   KMP_BLOCKTIME=1
+   KMP_CPUINFO_FILE: value is not defined
+   KMP_DETERMINISTIC_REDUCTION=false
+   KMP_DEVICE_THREAD_LIMIT=2147483647
+   KMP_DISP_NUM_BUFFERS=7
+   KMP_DUPLICATE_LIB_OK=false
+   KMP_FORCE_REDUCTION: value is not defined
+   KMP_FOREIGN_THREADS_THREADPRIVATE=true
+   KMP_FORKJOIN_BARRIER='2,2'
+   KMP_FORKJOIN_BARRIER_PATTERN='hyper,hyper'
+   KMP_FORKJOIN_FRAMES=true
+   KMP_FORKJOIN_FRAMES_MODE=3
+   KMP_GTID_MODE=3
+   KMP_HANDLE_SIGNALS=false
+   KMP_HOT_TEAMS_MAX_LEVEL=1
+   KMP_HOT_TEAMS_MODE=0
+   KMP_INIT_AT_FORK=true
+   KMP_INIT_WAIT=2048
+   KMP_ITT_PREPARE_DELAY=0
+   KMP_LIBRARY=throughput
+   KMP_LOCK_KIND=queuing
+   KMP_MALLOC_POOL_INCR=1M
+   KMP_NEXT_WAIT=1024
+   KMP_NUM_LOCKS_IN_BLOCK=1
+   KMP_PLAIN_BARRIER='2,2'
+   KMP_PLAIN_BARRIER_PATTERN='hyper,hyper'
+   KMP_REDUCTION_BARRIER='1,1'
+   KMP_REDUCTION_BARRIER_PATTERN='hyper,hyper'
+   KMP_SCHEDULE='static,balanced;guided,iterative'
+   KMP_SETTINGS=true
+   KMP_SPIN_BACKOFF_PARAMS='4096,100'
+   KMP_STACKOFFSET=64
+   KMP_STACKPAD=0
+   KMP_STACKSIZE=4M
+   KMP_STORAGE_MAP=false
+   KMP_TASKING=2
+   KMP_TASKLOOP_MIN_TASKS=0
+   KMP_TASK_STEALING_CONSTRAINT=1
+   KMP_TEAMS_THREAD_LIMIT=4
+   KMP_TOPOLOGY_METHOD=all
+   KMP_USER_LEVEL_MWAIT=false
+   KMP_VERSION=false
+   KMP_WARNINGS=true
+   OMP_CANCELLATION=false
+   OMP_DEFAULT_DEVICE=0
+   OMP_DISPLAY_ENV=false
+   OMP_DYNAMIC=false
+   OMP_MAX_ACTIVE_LEVELS=2147483647
+   OMP_MAX_TASK_PRIORITY=0
+   OMP_NESTED=false
+   OMP_NUM_THREADS='4'
+   OMP_PLACES: value is not defined
+   OMP_PROC_BIND='intel'
+   OMP_SCHEDULE='static'
+   OMP_STACKSIZE=4M
+   OMP_THREAD_LIMIT=2147483647
+   OMP_WAIT_POLICY=PASSIVE
+   KMP_AFFINITY='noverbose,warnings,respect,granularity=fine,compact,1,0'
+
+Start Reading
+Data Imported
+There are 22 categorical data in our dataset.
+season
+loan_amt_to_avg_inc
+coll_to_cur
+Income is successfually normalized
+Input Dataset size is :  (851641, 58)
+There are 51 numerical features need normalization
+Number of categorical featurs in dataset: 6
+Number of numerical features in dataset: 51
+shape of x_train:  (638730, 57)
+shape of x_test:  (212911, 57)
+shape of y_train: (638730,)
+shape of y_test: (212911,)
+Train set ratio 
+ 0.20687047639624068  |  0.7931295236037593
+Train set ratio 
+ 0.2065348425782412  |  0.7934651574217588
+shape of X_train:  (638730, 57)
+shape of X_test:  (212911, 57)
+shape of Y_train: (638730,)
+shape of Y_test: (212911,)
+START TRAINING
+Epoch 1/1000
+ - 121s - loss: 0.3275 - acc: 0.8314
+Epoch 2/1000
+ - 118s - loss: 0.2808 - acc: 0.8563
+Epoch 3/1000
+ - 118s - loss: 0.2747 - acc: 0.8590
+Epoch 4/1000
+ - 118s - loss: 0.2729 - acc: 0.8599
+Epoch 5/1000
+ - 118s - loss: 0.2710 - acc: 0.8606
+Epoch 6/1000
+ - 118s - loss: 0.2700 - acc: 0.8610
+Epoch 7/1000
+ - 119s - loss: 0.2687 - acc: 0.8621
+Epoch 8/1000
+ - 119s - loss: 0.2677 - acc: 0.8627
+Epoch 9/1000
+ - 120s - loss: 0.2674 - acc: 0.8624
+Epoch 10/1000
+ - 120s - loss: 0.2667 - acc: 0.8626
+Epoch 11/1000
+ - 123s - loss: 0.2661 - acc: 0.8635
+Epoch 12/1000
+ - 122s - loss: 0.2660 - acc: 0.8630
+Epoch 13/1000
+ - 118s - loss: 0.2657 - acc: 0.8637
+Epoch 14/1000
+ - 118s - loss: 0.2652 - acc: 0.8635
+Epoch 15/1000
+ - 118s - loss: 0.2649 - acc: 0.8641
+Epoch 16/1000
+ - 118s - loss: 0.2649 - acc: 0.8644
+Epoch 17/1000
+ - 118s - loss: 0.2645 - acc: 0.8644
+Epoch 18/1000
+ - 120s - loss: 0.2645 - acc: 0.8648
+Epoch 19/1000
+ - 120s - loss: 0.2639 - acc: 0.8649
+Epoch 20/1000
+ - 125s - loss: 0.2639 - acc: 0.8643
+Epoch 21/1000
+ - 121s - loss: 0.2639 - acc: 0.8651
+Epoch 22/1000
+ - 118s - loss: 0.2639 - acc: 0.8648
+Epoch 23/1000
+ - 118s - loss: 0.2637 - acc: 0.8648
+Epoch 24/1000
+ - 118s - loss: 0.2634 - acc: 0.8653
+Epoch 25/1000
+ - 141s - loss: 0.2634 - acc: 0.8651
+Epoch 26/1000
+ - 217s - loss: 0.2632 - acc: 0.8651
+Epoch 27/1000
+ - 246s - loss: 0.2632 - acc: 0.8651
+Epoch 28/1000
+ - 245s - loss: 0.2631 - acc: 0.8652
+Epoch 29/1000
+ - 247s - loss: 0.2635 - acc: 0.8654
+Epoch 30/1000
+ - 256s - loss: 0.2630 - acc: 0.8657
+Epoch 31/1000
+ - 248s - loss: 0.2630 - acc: 0.8655
+Epoch 32/1000
+ - 246s - loss: 0.2621 - acc: 0.8662
+Epoch 33/1000
+ - 255s - loss: 0.2624 - acc: 0.8659
+Epoch 34/1000
+ - 248s - loss: 0.2628 - acc: 0.8657
+Epoch 35/1000
+ - 248s - loss: 0.2628 - acc: 0.8661
+Epoch 36/1000
+ - 247s - loss: 0.2623 - acc: 0.8658
+Epoch 37/1000
+ - 254s - loss: 0.2628 - acc: 0.8657
+Epoch 38/1000
+ - 263s - loss: 0.2627 - acc: 0.8658
+Epoch 39/1000
+ - 260s - loss: 0.2619 - acc: 0.8665
+Epoch 40/1000
+ - 247s - loss: 0.2622 - acc: 0.8663
+Epoch 41/1000
+ - 249s - loss: 0.2624 - acc: 0.8664
+Epoch 42/1000
+ - 263s - loss: 0.2624 - acc: 0.8663
+Epoch 43/1000
+ - 263s - loss: 0.2617 - acc: 0.8666
+Epoch 44/1000
+ - 262s - loss: 0.2617 - acc: 0.8665
+Epoch 45/1000
+ - 251s - loss: 0.2617 - acc: 0.8660
+Epoch 46/1000
+ - 246s - loss: 0.2617 - acc: 0.8665
+Epoch 47/1000
+ - 246s - loss: 0.2621 - acc: 0.8660
+Epoch 48/1000
+ - 246s - loss: 0.2619 - acc: 0.8665
+Epoch 49/1000
+ - 257s - loss: 0.2616 - acc: 0.8667
+Epoch 50/1000
+ - 248s - loss: 0.2621 - acc: 0.8664
+Epoch 51/1000
+ - 244s - loss: 0.2616 - acc: 0.8666
+Epoch 52/1000
+ - 245s - loss: 0.2616 - acc: 0.8666
+Epoch 53/1000
+ - 246s - loss: 0.2615 - acc: 0.8667
+Epoch 54/1000
+ - 244s - loss: 0.2613 - acc: 0.8670
+Epoch 55/1000
+ - 246s - loss: 0.2614 - acc: 0.8668
+Epoch 56/1000
+ - 248s - loss: 0.2614 - acc: 0.8670
+Epoch 57/1000
+ - 247s - loss: 0.2613 - acc: 0.8669
+Epoch 58/1000
+ - 247s - loss: 0.2616 - acc: 0.8664
+Epoch 59/1000
+ - 245s - loss: 0.2615 - acc: 0.8668
+Epoch 60/1000
+ - 247s - loss: 0.2614 - acc: 0.8665
+Epoch 61/1000
+ - 260s - loss: 0.2611 - acc: 0.8671
+Epoch 62/1000
+ - 264s - loss: 0.2610 - acc: 0.8672
+Epoch 63/1000
+ - 264s - loss: 0.2611 - acc: 0.8668
+Epoch 64/1000
+ - 263s - loss: 0.2613 - acc: 0.8671
+Epoch 65/1000
+ - 264s - loss: 0.2610 - acc: 0.8673
+Epoch 66/1000
+ - 263s - loss: 0.2612 - acc: 0.8669
+Epoch 67/1000
+ - 264s - loss: 0.2607 - acc: 0.8675
+Epoch 68/1000
+ - 261s - loss: 0.2610 - acc: 0.8671
+Epoch 69/1000
+ - 249s - loss: 0.2609 - acc: 0.8673
+Epoch 70/1000
+ - 246s - loss: 0.2611 - acc: 0.8669
+Epoch 71/1000
+ - 245s - loss: 0.2603 - acc: 0.8677
+Epoch 72/1000
+ - 247s - loss: 0.2609 - acc: 0.8672
+Epoch 73/1000
+ - 260s - loss: 0.2609 - acc: 0.8676
+Epoch 74/1000
+ - 263s - loss: 0.2610 - acc: 0.8678
+Epoch 75/1000
+ - 253s - loss: 0.2610 - acc: 0.8674
+Epoch 76/1000
+ - 244s - loss: 0.2610 - acc: 0.8668
+Epoch 77/1000
+ - 259s - loss: 0.2608 - acc: 0.8676
+Epoch 78/1000
+ - 264s - loss: 0.2606 - acc: 0.8678
+Epoch 79/1000
+ - 266s - loss: 0.2608 - acc: 0.8676
+Epoch 80/1000
+ - 256s - loss: 0.2606 - acc: 0.8675
+Epoch 81/1000
+ - 246s - loss: 0.2608 - acc: 0.8675
+Epoch 82/1000
+ - 247s - loss: 0.2604 - acc: 0.8677
+Epoch 83/1000
+ - 245s - loss: 0.2605 - acc: 0.8671
+Epoch 84/1000
+ - 246s - loss: 0.2602 - acc: 0.8678
+Epoch 85/1000
+ - 246s - loss: 0.2607 - acc: 0.8674
+Epoch 86/1000
+ - 246s - loss: 0.2607 - acc: 0.8677
+Epoch 87/1000
+ - 246s - loss: 0.2606 - acc: 0.8677
+Epoch 88/1000
+ - 245s - loss: 0.2604 - acc: 0.8674
+Epoch 89/1000
+ - 248s - loss: 0.2605 - acc: 0.8677
+Epoch 90/1000
+ - 252s - loss: 0.2609 - acc: 0.8673
+Epoch 91/1000
+ - 245s - loss: 0.2607 - acc: 0.8674
+Epoch 92/1000
+ - 247s - loss: 0.2605 - acc: 0.8677
+Epoch 93/1000
+ - 246s - loss: 0.2601 - acc: 0.8680
+Epoch 94/1000
+ - 245s - loss: 0.2604 - acc: 0.8677
+Epoch 95/1000
+ - 246s - loss: 0.2603 - acc: 0.8675
+Epoch 96/1000
+ - 245s - loss: 0.2607 - acc: 0.8671
+Epoch 97/1000
+ - 245s - loss: 0.2601 - acc: 0.8676
+Epoch 98/1000
+ - 247s - loss: 0.2604 - acc: 0.8678
+Epoch 99/1000
+ - 246s - loss: 0.2601 - acc: 0.8681
+Epoch 100/1000
+ - 247s - loss: 0.2600 - acc: 0.8682
+Epoch 101/1000
+ - 245s - loss: 0.2602 - acc: 0.8681
+Epoch 102/1000
+ - 247s - loss: 0.2599 - acc: 0.8678
+Epoch 103/1000
+ - 244s - loss: 0.2606 - acc: 0.8676
+Epoch 104/1000
+ - 246s - loss: 0.2599 - acc: 0.8681
+Epoch 105/1000
+ - 244s - loss: 0.2606 - acc: 0.8678
+Epoch 106/1000
+ - 246s - loss: 0.2599 - acc: 0.8683
+Epoch 107/1000
+ - 246s - loss: 0.2601 - acc: 0.8680
+Epoch 108/1000
+ - 247s - loss: 0.2600 - acc: 0.8681
+Epoch 109/1000
+ - 244s - loss: 0.2600 - acc: 0.8676
+Epoch 110/1000
+ - 245s - loss: 0.2605 - acc: 0.8683
+Epoch 111/1000
+ - 244s - loss: 0.2604 - acc: 0.8683
+Epoch 112/1000
+ - 245s - loss: 0.2602 - acc: 0.8678
+Epoch 113/1000
+ - 245s - loss: 0.2596 - acc: 0.8687
+Epoch 114/1000
+ - 245s - loss: 0.2601 - acc: 0.8683
+Epoch 115/1000
+ - 245s - loss: 0.2599 - acc: 0.8681
+Epoch 116/1000
+ - 246s - loss: 0.2597 - acc: 0.8682
+Epoch 117/1000
+ - 246s - loss: 0.2601 - acc: 0.8679
+Epoch 118/1000
+ - 246s - loss: 0.2601 - acc: 0.8682
+Epoch 119/1000
+ - 246s - loss: 0.2598 - acc: 0.8683
+Epoch 120/1000
+ - 252s - loss: 0.2597 - acc: 0.8678
+Epoch 121/1000
+ - 245s - loss: 0.2596 - acc: 0.8681
+Epoch 122/1000
+ - 245s - loss: 0.2601 - acc: 0.8686
+Epoch 123/1000
+ - 246s - loss: 0.2601 - acc: 0.8679
+Epoch 124/1000
+ - 246s - loss: 0.2598 - acc: 0.8683
+Epoch 125/1000
+ - 246s - loss: 0.2598 - acc: 0.8684
+Epoch 126/1000
+ - 246s - loss: 0.2600 - acc: 0.8683
+Epoch 127/1000
+ - 247s - loss: 0.2591 - acc: 0.8685
+Epoch 128/1000
+ - 245s - loss: 0.2598 - acc: 0.8685
+Epoch 129/1000
+ - 246s - loss: 0.2597 - acc: 0.8682
+Epoch 130/1000
+ - 245s - loss: 0.2597 - acc: 0.8685
+Epoch 131/1000
+ - 247s - loss: 0.2600 - acc: 0.8684
+Epoch 132/1000
+ - 246s - loss: 0.2598 - acc: 0.8683
+Epoch 133/1000
+ - 245s - loss: 0.2598 - acc: 0.8682
+Epoch 134/1000
+ - 246s - loss: 0.2597 - acc: 0.8684
+Epoch 135/1000
+ - 245s - loss: 0.2593 - acc: 0.8689
+Epoch 136/1000
+ - 243s - loss: 0.2595 - acc: 0.8686
+Epoch 137/1000
+ - 242s - loss: 0.2598 - acc: 0.8681
+Epoch 138/1000
+ - 240s - loss: 0.2594 - acc: 0.8684
+Epoch 139/1000
+ - 241s - loss: 0.2595 - acc: 0.8685
+Epoch 140/1000
+ - 239s - loss: 0.2596 - acc: 0.8686
+Epoch 141/1000
+ - 247s - loss: 0.2602 - acc: 0.8680
+Epoch 142/1000
+ - 249s - loss: 0.2597 - acc: 0.8688
+Epoch 143/1000
+ - 256s - loss: 0.2601 - acc: 0.8684
+Epoch 144/1000
+ - 253s - loss: 0.2596 - acc: 0.8689
+Epoch 145/1000
+ - 257s - loss: 0.2596 - acc: 0.8686
+Epoch 146/1000
+ - 258s - loss: 0.2595 - acc: 0.8684
